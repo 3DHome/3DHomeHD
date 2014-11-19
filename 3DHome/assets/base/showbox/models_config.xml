@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config
+    name="group_showbox"
+    basedataFile="showbox_basedata.cbf"
+    localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0"
+    sceneFile="showbox_scene.cbf"
+    type="showbox" >
+
+    <imageInfos>
+
+        <imageInfo
+            imageName="1.jpg@showbox_basedata.cbf"
+            imagePath="1.jpg" />
+    </imageInfos>
+
+</config>

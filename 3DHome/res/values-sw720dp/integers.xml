@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- the max wallpaper size of 1920 x 1080 devices,
+    place this file under values-sw720dp, as 1080/1.5 = 720 -->
+    <integer name="wallpaper_max_size">2048</integer>
+</resources>

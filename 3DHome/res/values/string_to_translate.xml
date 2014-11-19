@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- wallpaper & user share -->
+    <!-- TODO: need translations (except for simple Chinese) later -->
+    <string name="wallpapers">Wall Paper</string>
+    <string name="wallpaper_summary">Download and apply Wall paper</string>
+    <string name="action_export_wallpaper">Export my papers</string>
+    <string name="user_share_description">Show my using wallpapers to community</string>
+    <string name="wallpaper_bundle">Wallpaper Bundle</string>
+    <string name="wallpaper_clean_one_wall">Clean a paper</string>
+    <string name="wallpaper_show">Show to ...</string>
+
+    <string name="setting_wallpaper">Wallpaper Settings</string>
+    <string name="wallpaper_size_summary">1024x1024(px)</string>
+    <string name="wallpaper_size_title">Max Wallpaper Size</string>
+    <!-- wallpaper & user share end -->
+
+    <!-- app icon decorator begin -->
+    <string name="app_icon_decorator_customization_title">Customize app icon decorator</string>
+    <string name="app_icon_decorator_customization_on">Enabled</string>
+    <string name="app_icon_decorator_customization_off">Disabled</string>
+
+    <string name="setting_app_icon_decorator">Decorator of App icons on wall</string>
+    <!--<string name="app_icon_decorator_summary" translatable="false"></string>-->
+    <string name="app_icon_decorator_title">Select decorator</string>
+    <string name="wall_item_label">App label</string>
+    <string name="wall_item_shelf">Shelf object</string>
+    <string name="wall_shelf_missing_prompt">No more decorator available yet, download it first.</string>
+    <!-- app icon decorator end -->
+</resources>

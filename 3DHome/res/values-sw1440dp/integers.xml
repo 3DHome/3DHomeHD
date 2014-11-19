@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- the max wallpaper size of 3840x2160 devices,
+    place this file under values-sw1440dp, as 2160*1.5 = 1440 -->
+    <integer name="wallpaper_max_size">4096</integer>
+</resources>
