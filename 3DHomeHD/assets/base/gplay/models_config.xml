@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="group_gplay" className="com.borqs.se.widget3d.NormalObject"
+	sceneName="home8" type="GooglePlayer" assetsPath="assets/base/gplay"
+	sceneFile="gplay_scene.cbf" basedataFile="gplay_basedata.cbf" slotType="desktop"
+	componentName="com.android.vending/.AssetBrowserActivity"
+	localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0">
+	<imageInfos themeName="default">
+		<imageInfo imageName="object_googleplay_zch.jpg@gplay_basedata.cbf_0"
+			imagePath="assets/base/gplay/object_googleplay_zch.jpg" />
+		<imageInfo imageName="yinying.png@gplay_basedata.cbf_1"
+			imagePath="assets/base/gplay/yinying.png" />
+	</imageInfos>
+</config>
+

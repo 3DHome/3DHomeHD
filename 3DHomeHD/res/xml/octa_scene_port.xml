@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene className="com.borqs.se.home3d.HomeScene" sceneName="home8"
+	wall_spanX="7" wall_spanY="3" wall_sizeX="196" wall_sizeY="242"
+	wall_num="8" wall_height="45" wall_radius="1000" desk_num="5"
+	desk_height="167" desk_radius="456.5" sky_radius="488">
+	<!-- <camera fov="30" near="10" far="5000">
+		<location x="0" y="-900" z="460" />
+		<zaxis x="0" y="-1" z="0" />
+		<up x="0" y="0" z="1" />
+	</camera> -->
+
+    <!-- <camera type="default" fovDegree="35.8156" near="10" far="5000">
+        <cameraPos x="0" y="-444.559" z="446.686" />
+        <cameraTargetPos x="0" y="-125.17" z="446.686" />
+        <cameraUp x="0" y="0" z="1" />
+    </camera>
+    <camera type="up" fovDegree="78.0025" near="10" far="5000">
+        <cameraPos x="0" y="-747.59" z="181.508" />
+        <cameraTargetPos x="0" y="-322.891" z="646.264" />
+        <cameraUp x="0" y="0" z="1" />
+    </camera>
+    <camera type="down" fovDegree="78.0025" near="10" far="5000">
+        <cameraPos x="0" y="-638.452" z="485.094" />
+        <cameraTargetPos x="0" y="877.442" z="-65.9594" />
+        <cameraUp x="0" y="0" z="1" />
+    </camera>
+    <camera type="near" fovDegree="78.0025" near="10" far="3000">
+        <cameraPos x="0" y="-270.731" z="501.892" />
+        <cameraTargetPos x="0" y="312.158" z="501.892" />
+        <cameraUp x="0" y="0" z="1" />
+    </camera>
+    <camera type="far" fovDegree="78.0025" near="10" far="3000">
+        <cameraPos x="0" y="-950" z="413.341" />
+        <cameraTargetPos x="0" y="-141.115" z="413.341" />
+        <cameraUp x="0" y="0" z="1" />
+    </camera> -->
+    
+    <camera type="near" fovDegree="35.8156" near="10" far="5000">
+        <cameraPos x="0" y="-300.24" z="408.277" />
+        <cameraTargetPos x="0" y="-125.17" z="408.277" />
+        <cameraUp x="0" y="0" z="1" />
+    </camera>
+    <camera type="far" fovDegree="35.8156" near="10" far="5000">
+        <cameraPos x="-0" y="-960.918" z="462.323" />
+        <cameraTargetPos x="0" y="-242.179" z="462.323" />
+        <cameraUp x="0" y="0" z="1" />
+    </camera>
+    <camera type="down" fovDegree="35.8156" near="10" far="5000">
+        <cameraPos x="-0" y="-534.502" z="566.908" />
+        <cameraTargetPos x="0" y="36.5771" z="297.475" />
+        <cameraUp x="0" y="0" z="1" />
+    </camera>
+    <camera type="default" fovDegree="35.8156" near="10" far="5000">
+        <cameraPos x="0" y="-628.05" z="431.101" />
+        <cameraTargetPos x="0" y="-88.1477" z="431.101" />
+        <cameraUp x="0" y="0" z="1" />
+    </camera>
+    <camera type="up" fovDegree="35.8156" near="10" far="5000">
+        <cameraPos x="-0" y="-527.298" z="667.922" />
+        <cameraTargetPos x="0" y="36.5771" z="1012.33" />
+        <cameraUp x="0" y="0" z="1" />
+    </camera>
+</scene>

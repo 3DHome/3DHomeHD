@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theme_entries_8">
+        <item>Tema legno</item>
+        <item>Tema bianco</item>
+        <item>Tema scuro</item>
+    </string-array>
+    <string-array name="months">
+        <item>gennaio</item>
+        <item>febbraio</item>
+        <item>marzo</item>
+        <item>aprile</item>
+        <item>maggio</item>
+        <item>giugno</item>
+        <item>luglio</item>
+        <item>agosto</item>
+        <item>settembre</item>
+        <item>ottobre</item>
+        <item>novembre</item>
+        <item>dicembre</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>domenica</item>
+        <item>Lunedi</item>
+        <item>martedì</item>
+        <item>mercoledì</item>
+        <item>Giovedi</item>
+        <item>venerdì</item>
+        <item>sabato</item>
+    </string-array>
+    <string-array name="menus">
+        <item>Oggetti 3D</item>
+        <item>commutazione Wallpaper</item>
+        <item>Impostazioni Home</item>
+        <item>Impostazioni sistema</item>
+        <!-- <item>Gestisci applicazioni</item> -->
+    </string-array>
+    <string-array name="interval_time_entries">
+        <item>Mezz\'ora</item>
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+        <item>4 ore</item>
+        <item>5 ore</item>
+    </string-array>
+
+    <string-array name="appicon_style_entries">
+        <item>Nessuno</item>
+        <item>Nero</item>
+        <item>rosolare</item>
+        <item>grigio</item>
+    </string-array>
+
+    <!-- below strings have not been translated to other languages -->
+    <string-array name="edit_wall_menu_item">
+        <item>Fotografia</item>
+        <item>Macchina fotografica</item>
+        <item>Ripristina impostazioni predefinite</item>
+    </string-array>
+
+    <string-array name="long_click_wall">
+        <item>Aggiungi oggetto 3D</item>
+        <item>Aggiungi applicazione</item>
+        <item>Aggiungi scorciatoia</item>
+        <item>Aggiungi widget</item>
+        <item>Cambiare lo sfondo</item>
+        <item>Wallpaper suite</item>
+    </string-array>
+
+    <string-array name="orientation_preferred_entries">
+        <item>Auto rotation</item>
+        <item>Landscape</item>
+        <item>Portrait</item>
+    </string-array>
+
+</resources>

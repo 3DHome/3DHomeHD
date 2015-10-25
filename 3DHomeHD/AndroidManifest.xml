@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.borqs.freehdhome"
+    android:versionCode="86"
+    android:versionName="0.14.16" >
+
+    <!--android:versionCode="1550"
+    android:versionName="0.14.10.1550" -->
+
+
+    <!-- VERY IMPORTANT! Don't forget this permission, or in-app billing won't work. -->
+    <uses-permission android:name="com.android.vending.BILLING"/>
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--<uses-permission android:name="android.permission.CALL_PRIVILEGED" />-->
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <!-- borqs Market permission -->
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <!-- google oauth -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+
+    <supports-screens android:requiresSmallestWidthDp="480"
+                      android:smallScreens="false"
+                      android:normalScreens="true"/>
+
+    <application tools:replace="android:icon, android:label, android:theme, android:name"
+        android:allowClearUserData="false"
+        android:description="@string/description"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:name="com.borqs.se.home3d.HomeApplication"
+        android:theme="@style/HomeThemeWithActionBar"
+        android:largeHeap="true" >
+        <activity
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.borqs.se.home3d.HomeActivity"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity-alias android:name="HomeAlias1" android:enabled="false" 
+            android:targetActivity="com.borqs.se.home3d.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="HomeAlias2" android:targetActivity="com.borqs.se.home3d.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.borqs.se.home3d.BlankActivity" android:noHistory="true" android:excludeFromRecents="true" >
+        </activity>
+        
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.borqs.se.home3d.HomeSwitcherActivity"
+            android:launchMode="singleTask" android:taskAffinity="com.borqs.se.home.switcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="ignoreAtProgramList" android:value="true" />
+        </activity>
+        
+        <activity
+            android:name="com.borqs.se.home3d.SettingsActivity"
+            android:title="@string/menu_preference"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter >
+                <action android:name="com.borqs.se.freehdhome.settings" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/about"
+            android:name="com.borqs.se.home3d.SettingAbout"
+            android:title="@string/about" />
+        <activity
+            android:label="@string/test"
+            android:name="com.borqs.se.SETest"
+            android:title="@string/test" />
+
+        <activity
+            android:label="@string/weather_settings"
+            android:name="com.borqs.borqsweather.weather.WeatherSettings"
+            android:title="@string/weather_settings"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <service android:name="com.borqs.borqsweather.weather.LoopForInfoService" >
+        </service>
+
+        <provider
+            android:authorities="com.borqs.freehdhome.settings"
+            android:name="com.borqs.se.home3d.HomeProvider"
+            android:exported="false"
+            android:readPermission="com.borqs.se.permission.READ_SETTINGS"
+            android:writePermission="com.borqs.se.permission.WRITE_SETTINGS" />
+
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="com.google.ads.AdActivity"
+            android:theme="@style/Theme.Translucent" />
+        <!--<activity-->
+            <!--android:excludeFromRecents="true"-->
+            <!--android:finishOnTaskLaunch="true"-->
+            <!--android:launchMode="singleInstance"-->
+            <!--android:name="org.acra.CrashReportDialog"-->
+            <!--android:theme="@android:style/Theme.Dialog" />-->
+        
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <activity
+            android:name="com.borqs.se.download.LocalThemeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:label="@string/themes"/>
+
+        <activity
+            android:name="com.borqs.se.download.LocalObjectPreview"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:label="@string/preview"/>
+        <activity
+            android:name="com.borqs.se.download.LocalThemePreview"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:label="@string/preview"/>
+
+        <!--&lt;!&ndash; borqs market &ndash;&gt;-->
+        <!--<activity-->
+            <!--android:name="com.borqs.market.MarketHomeActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:label="@string/themes_market"-->
+            <!--android:theme="@style/Theme.wallpaper"-->
+            <!--/>-->
+        <!--<activity-->
+            <!--android:name="com.borqs.market.ProductListActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:theme="@style/Theme.wallpaper">-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name="com.borqs.market.UserShareListActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:theme="@style/Theme.wallpaper">-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name="com.borqs.market.PartitionsListActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:theme="@style/Theme.wallpaper">-->
+        <!--</activity>-->
+        <!--<activity-->
+                <!--android:name="com.borqs.market.wallpaper.WallpaperExportActivity"-->
+                <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+                <!--android:label="@string/tab_tile_wallpaper"-->
+                <!--android:theme="@style/Theme.wallpaper"-->
+                <!-->-->
+        <!--</activity>-->
+
+        <!--<activity-->
+            <!--android:name="com.borqs.market.WallPaperProductListActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:theme="@style/Theme.wallpaper"-->
+            <!--android:label="@string/wallpaper_launcher">-->
+            <!--&lt;!&ndash; -->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+            <!--&ndash;&gt;            -->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name="com.borqs.market.WallPaperLocalProductListActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:theme="@style/Theme.wallpaper"-->
+            <!--android:label="@string/wallpaper_launcher">-->
+        <!--</activity>-->
+
+        <!--<activity-->
+                <!--android:name="com.borqs.market.ProductLocalDetailActivity"-->
+                <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+                <!--android:theme="@style/Theme.Sherlock.Custom"-->
+                <!--/>-->
+        <!--<activity-->
+                <!--android:name="com.borqs.market.ProductDetailActivity"-->
+                <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+                <!--android:theme="@style/Theme.Sherlock.Custom"-->
+                <!--/>-->
+        <!--<activity-->
+            <!--android:name="com.borqs.market.WallpaperProductDetailActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:theme="@style/Theme.wallpaper"-->
+        <!--/>-->
+        <!--<activity-->
+            <!--android:name="com.borqs.market.CommentListActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:theme="@style/Theme.wallpaper"-->
+        <!--/>-->
+        <!--<activity-->
+            <!--android:name="com.borqs.market.CreateCommentActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:theme="@style/Theme.wallpaper"-->
+        <!--/>-->
+        <provider android:name="com.borqs.market.db.DownLoadProvider"
+                  android:exported="false"
+                  android:authorities="com.borqs.freehdhome.download"/>
+
+        <!--<receiver android:name="com.borqs.market.service.DownloadReciver">-->
+            <!--<intent-filter >-->
+                <!--<action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <service android:name="com.borqs.information.InformationDownloadService" >
+            <intent-filter>
+                <action android:name="com.borqs.market.iab.service"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.borqs.se.download.DownloadChangeReceiver">
+            <intent-filter >
+                <action android:name="com.borqs.freehdhome.market.intent.action.DOWNLOAD_COMPLETE"/>
+                <action android:name="com.borqs.freehdhome.market.intent.action.APPLY"/>
+                <action android:name="com.borqs.freehdhome.market.intent.action.DELETE"/>
+                <action android:name="com.borqs.freehdhome.market.intent.action.INSTALL"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- UMENG APPKEY and feedback activities -->
+        <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="51c95d8e56240bcafc01ca2e"/>
+
+        <!-- google channel name -->
+        <meta-data android:name="UMENG_CHANNEL" android:value="google" />
+        <!-- amazon channel  -->
+        <!--<meta-data android:name="UMENG_CHANNEL" android:value="amazon" />-->
+
+        <activity android:name="com.umeng.fb.ConversationActivity"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name="com.umeng.fb.ContactActivity"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+        <!-- end of umeng components -->
+
+        <service android:name="com.borqs.se.home3d.LocalService"/>
+
+        <activity
+                android:name="com.borqs.se.home3d.BackDoorSettingsActivity"
+                android:title="Backdoor Settings"
+                android:enabled="false"
+                android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.borqs.bpc.action.COMPOSER_LAUNCH" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="com.borqs.bpc.action.COMPOSER_PLUGIN"/>
+                <category android:name="android.intent.category.TEST"/>
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:icon="@drawable/magnifier_logo"
+            android:name="com.borqs.se.home3d.SearchActivity"
+            android:label="@string/search_activity_title"
+            android:windowSoftInputMode="adjustResize" />
+
+    </application>
+
+</manifest>

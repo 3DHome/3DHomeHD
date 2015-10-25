@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mountPointsConfig>
+    <mountPoints containerType="0" containerName="fangzhuo_4_point" groupName="group_ipad">
+        <mountPointData mountPointName="ipad_fangzhuo_4_point_1" translatex="-201.248" translatey="2.222" translatez="84.537" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="ipad_fangzhuo_4_point_2" translatex="-70.0331" translatey="2.222" translatez="84.537" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="ipad_fangzhuo_4_point_3" translatex="61.182" translatey="2.222" translatez="84.537" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="ipad_fangzhuo_4_point_4" translatex="192.397" translatey="2.222" translatez="84.537" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+</mountPointsConfig>

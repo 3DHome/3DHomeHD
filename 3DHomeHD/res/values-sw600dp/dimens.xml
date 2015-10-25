@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="workspace_cell_width">96dp</dimen>
+    <dimen name="workspace_cell_height">96dp</dimen>
+
+    <dimen name="helper_title_font">20px</dimen>
+    <dimen name="helper_content_font">18px</dimen>
+    <dimen name="app_menu_title_font">20px</dimen>
+    <dimen name="app_menu_icon_font">14px</dimen>
+    <dimen name="app_menu_body_font">20px</dimen>
+    
+    <!-- Size of icons in workspace -->
+    <dimen name="app_icon_size">72dp</dimen>
+    <dimen name="app_customize_icon_size">72dp</dimen>
+    <dimen name="app_customize_icon_PaddingTop">6dp</dimen>
+    <dimen name="app_customize_icon_Padding">2dp</dimen>
+    <dimen name="app_customize_icon_text_size">20dp</dimen>
+    
+    <!-- AppsCustomize -->
+    <dimen name="apps_customize_cell_width">96dp</dimen>
+    <dimen name="apps_customize_cell_height">140dp</dimen>
+    <dimen name="apps_customize_pageLayoutWidthGap">36dp</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">36dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">25dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingBottom">10dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingLeft">10dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingRight">10dp</dimen>
+    <dimen name="apps_customize_dock_size">72dp</dimen>
+
+    <dimen name="wall_app_icon_size">144px</dimen>
+
+</resources>

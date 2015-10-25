@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/3DHomeHD.iml" filepath="$PROJECT_DIR$/3DHomeHD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Borqs3DHome.Misc/Borqs3DHome.Misc.iml" filepath="$PROJECT_DIR$/../../Borqs3DHome.Misc/Borqs3DHome.Misc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Borqs3DHome.Misc/BorqsMisc.iml" filepath="$PROJECT_DIR$/../../Borqs3DHome.Misc/BorqsMisc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Market_v0.3/Market_v0.3.iml" filepath="$PROJECT_DIR$/../../Market_v0.3/Market_v0.3.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="parent"
+    android:title="@string/menu_preference" >
+
+    <!-- StyleSetting -->
+    <PreferenceCategory
+            android:key="StyleSetting"
+            android:title="@string/setting_style" >
+
+        <!--<Preference-->
+                <!--android:icon="@drawable/theme"-->
+                <!--android:key="theme_key"-->
+                <!--android:persistent="false"-->
+                <!--android:summary="@string/theme_summary"-->
+                <!--android:title="@string/themes" >-->
+            <!--<intent-->
+                    <!--android:action="android.intent.action.MAIN"-->
+                    <!--android:targetClass="com.borqs.se.download.LocalThemeActivity"-->
+                    <!--android:targetPackage="com.borqs.freehdhome" />-->
+        <!--</Preference>-->
+
+        <Preference
+                android:icon="@drawable/theme"
+                android:key="wallpaper_key"
+                android:persistent="false"
+                android:summary="@string/wallpaper_summary"
+                android:title="@string/wallpapers" >
+            <!--<intent-->
+                    <!--android:action="android.intent.action.MAIN"-->
+                    <!--android:targetClass="com.borqs.market.WallpaperHomeActivity"-->
+                    <!--android:targetPackage="com.borqs.freehdhome" />-->
+        </Preference>
+        <Preference
+                android:icon="@drawable/user_share"
+                android:key="user_share_key"
+                android:persistent="false"
+                android:summary="@string/user_share_description"
+                android:title="@string/action_export_wallpaper" >
+        </Preference>
+        <!-- <ListPreference
+            android:entries="@array/appicon_style_entries"
+            android:entryValues="@array/appicon_styly_values"
+            android:key="objects_background_key"
+            android:summary="@string/wall_objects_background_summary"
+            android:defaultValue="none"
+            android:dialogTitle="@string/choose_background_dialog_title"
+            android:title="@string/wall_objects_background_title"
+            android:icon="@drawable/setting_background" /> -->
+
+    </PreferenceCategory>
+
+    <!-- DisplaySetting -->
+    <PreferenceCategory
+        android:key="DisplaySetting"
+        android:title="@string/setting_display" >
+
+        <PreferenceScreen
+                android:key="ad_customization_key"
+                android:persistent="false"
+                android:title="@string/ad_removal_title"
+                android:summary="@string/ad_removal_description"
+                android:icon="@drawable/ad_content" />
+
+        <CheckBoxPreference
+                android:key="ad_dismiss_flyer"
+                android:icon="@drawable/ad_content"
+                android:persistent="false"
+                android:summaryOff="@string/ad_dismiss_off"
+                android:summaryOn="@string/ad_dismiss_on"
+                android:title="@string/ad_dismiss_title" />
+
+        <EditTextPreference
+                android:dialogTitle="@string/ad_content_dialog_title"
+                android:icon="@drawable/ad_content"
+                android:key="ad_content"
+                android:persistent="false"
+                android:summary="@string/ad_content_summary"
+                android:title="@string/ad_content_title" />
+
+        <CheckBoxPreference
+            android:key="fps_key"
+            android:persistent="false"
+            android:summaryOff="@string/show_fps_off"
+            android:summaryOn="@string/show_fps_on"
+            android:title="@string/show_fps" />
+
+        <CheckBoxPreference
+            android:key="full_screen_key"
+            android:persistent="false"
+            android:summaryOff="@string/disable"
+            android:summaryOn="@string/enable"
+            android:title="@string/full_screen"
+            android:icon="@drawable/full_screen" />
+
+        <CheckBoxPreference
+            android:key="show_shelf_key"
+            android:persistent="false"
+            android:summaryOff="@string/disable"
+            android:summaryOn="@string/enable"
+            android:title="@string/show_shelf"
+            android:icon="@drawable/show_wall_shelf" />
+
+        <ListPreference
+            android:entries="@array/orientation_preferred_entries"
+            android:entryValues="@array/orientation_preferred_values"
+            android:key="orientation_preferred_key"
+            android:summary="@string/orientation_preferred_summary"
+            android:defaultValue="none"
+            android:dialogTitle="@string/orientation_preferred_dialog_title"
+            android:title="@string/orientation_preferred_title"
+            android:icon="@drawable/orientation_preferred" />
+
+        <CheckBoxPreference
+            android:key="unlock_screen_key"
+            android:persistent="false"
+            android:summaryOff="@string/disable"
+            android:summaryOn="@string/enable"
+            android:title="@string/unlock_screen_animation" 
+            android:icon="@drawable/unlock"/>
+
+        <PreferenceScreen
+            android:key="weather_settings"
+            android:persistent="false"
+            android:summary="@string/weather_summary"
+            android:title="@string/weather_settings" 
+            android:icon="@drawable/weather">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.borqs.borqsweather.weather.WeatherSettings"
+                android:targetPackage="com.borqs.freehdhome" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <!--<PreferenceCategory-->
+        <!--android:key="UpdateSetting"-->
+        <!--android:title="@string/update_settings" >-->
+        <!--<PreferenceScreen-->
+            <!--android:enabled="true"-->
+            <!--android:key="upgrade_key"-->
+            <!--android:persistent="true"-->
+            <!--android:title="@string/upgrade_title"-->
+            <!--android:icon="@drawable/check_update" />-->
+    <!--</PreferenceCategory>-->
+
+    <PreferenceScreen
+        android:key="share"
+        android:persistent="false"
+        android:title="@string/share"
+        android:icon="@drawable/share" />
+    <PreferenceScreen
+        android:key="score"
+        android:persistent="false"
+        android:title="@string/score"
+        android:icon="@drawable/score" />
+    <PreferenceScreen
+        android:key="feedback"
+        android:persistent="false"
+        android:title="@string/feedback"
+        android:icon="@drawable/feedback" />
+    <PreferenceScreen
+        android:key="help"
+        android:persistent="false"
+        android:title="@string/help"
+        android:icon="@drawable/help" />
+    <PreferenceScreen
+        android:key="about"
+        android:persistent="false"
+        android:title="@string/about"
+        android:icon="@drawable/about">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.borqs.se.home3d.SettingAbout"
+            android:targetPackage="com.borqs.freehdhome" />
+    </PreferenceScreen>
+    <!-- <PreferenceScreen
+        android:key="test"
+        android:persistent="false"
+        android:title="@string/test"
+        android:icon="@drawable/about">
+        <intent 
+            android:action="abdroid.intent.action.MAIN"
+            android:targetClass="com.borqs.se.SETest"
+            android:targetPackage="com.borqs.freehdhome" />
+    </PreferenceScreen> -->
+
+</PreferenceScreen>

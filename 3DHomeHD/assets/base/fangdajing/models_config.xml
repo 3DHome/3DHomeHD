@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config 
+    name="fangdajing"
+    className="com.borqs.se.widget3d.DesktopObject"
+    sceneName="home8"
+    type="fangdajing"
+    assetsPath="assets/base/fangdajing"
+    sceneFile="fangdajing_scene.cbf"
+    basedataFile="fangdajing_basedata.cbf"
+    childNames="benzi@fangdajing,fangdajing@fangdajing,lxr_touying@fangdajing"
+    keyWords="fangdajing"
+    slotType="desktop"
+    spanX="2"
+    spanY="2"
+    previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0"
+    localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0">
+    <imageInfos themeName="default">
+        <imageInfo imageName="object_fangdajing01_fhq.jpg@fangdajing_basedata.cbf" imagePath="assets/base/fangdajing/object_fangdajing01_fhq.jpg" />
+        <imageInfo imageName="hd_object_fangdajing_zch.png@fangdajing_basedata.cbf" imagePath="assets/base/fangdajing/hd_object_fangdajing_zch.png" />
+        <imageInfo imageName="yinying.png@fangdajing_basedata.cbf" imagePath="assets/base/fangdajing/yinying.png" />
+    </imageInfos>
+</config>

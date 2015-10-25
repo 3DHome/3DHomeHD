@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resource>
+    <imageKeys>
+        <imageKey imageid="ipad_black_fhq.jpg@ipad_basedata.cbf" path="/" />
+        <imageKey imageid="yinying.png@ipad_basedata.cbf" path="/" />
+    </imageKeys>
+</resource>

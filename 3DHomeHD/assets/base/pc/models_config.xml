@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="group_pc" className="com.borqs.se.widget3d.Laptop"
+	sceneName="home8" type="Laptop" assetsPath="assets/base/pc" sceneFile="pc_scene.cbf"
+	basedataFile="pc_basedata.cbf"
+	childNames="Object05@group_pc@pc_basedata.cbf,
+		Object03@group_pc@pc_basedata.cbf"
+	slotType="desktop" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0">
+	<imageInfos themeName="default">
+		<imageInfo imageName="diannao.jpg@pc_basedata.cbf"
+			imagePath="assets/base/pc/diannao.jpg" />
+		<imageInfo imageName="yinying.png@pc_basedata.cbf"
+			imagePath="assets/base/pc/yinying.png" />
+	</imageInfos>
+</config>
+

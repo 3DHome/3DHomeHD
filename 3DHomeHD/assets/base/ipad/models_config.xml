@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="group_ipad" className="com.borqs.se.widget3d.Laptop" sceneName="home8" type="ipad" assetsPath="assets/base/ipad" sceneFile="ipad_scene.cbf" basedataFile="ipad_basedata.cbf" childNames="pad@group_ipad,xx_touying@group_ipad" keyWords="ipad" slotType="desktop" spanX="2" spanY="2" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0">
+    <imageInfos themeName="default">
+        <imageInfo imageName="ipad_black_fhq.jpg@ipad_basedata.cbf" imagePath="assets/base/ipad/ipad_black_fhq.jpg" />
+        <imageInfo imageName="yinying.png@ipad_basedata.cbf" imagePath="assets/base/ipad/yinying.png" />
+    </imageInfos>
+    <childrenAttribute>
+        <child>
+            <geometry spatialName="pad@group_ipad" />
+            <lights />
+            <geostatus statusValue="2113568" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="xx_touying@group_ipad" />
+            <lights />
+            <geostatus statusValue="2113557" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+    </childrenAttribute>
+</config>

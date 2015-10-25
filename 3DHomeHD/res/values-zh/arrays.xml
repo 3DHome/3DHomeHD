@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theme_entries_8">
+        <item>木质</item>
+        <item>白光</item>
+        <item>黑光</item>
+    </string-array>
+    <string-array name="months">
+        <item>一\r\n月</item>
+        <item>二\r\n月</item>
+        <item>三\r\n月</item>
+        <item>四\r\n月</item>
+        <item>五\r\n月</item>
+        <item>六\r\n月</item>
+        <item>七\r\n月</item>
+        <item>八\r\n月</item>
+        <item>九\r\n月</item>
+        <item>十\r\n月</item>
+        <item>十\r\n一\r\n月</item>
+        <item>十\r\n二\r\n月</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <string-array name="menus">
+        <item>三维物体</item>
+        <item>@string/wall_option_change_wallpaper</item>
+        <item>主屏设置</item>
+        <item>系统设置</item>
+        <!-- <item>管理应用程序</item> -->
+    </string-array>
+    <string-array name="interval_time_entries">
+        <item>30 分钟</item>
+        <item>1 小时</item>
+        <item>2 小时</item>
+        <item>3 小时</item>
+        <item>4 小时</item>
+        <item>5 小时</item>
+    </string-array>
+    <string-array name="appicon_style_entries">
+        <item>无</item>
+        <item>黑色</item>
+        <item>棕色</item>
+        <item>灰色</item>
+    </string-array>
+    <!-- below strings have not been translated to other languages -->
+        <string-array name="edit_wall_menu_item">
+        <item>图片</item>
+        <item>拍照</item>
+        <item>恢复至默认</item>
+    </string-array>
+
+    <string-array name="long_click_wall">
+        <item>添加三维物体</item>
+        <item>添加应用</item>
+        <item>添加快捷方式</item>
+        <item>添加桌面小部件</item>
+        <item>切换墙纸</item>
+        <item>套装墙纸</item>
+    </string-array>
+
+    <string-array name="orientation_preferred_entries">
+        <!-- <item>自动转屏</item> -->
+        <item>横屏</item>
+        <item>竖屏</item>
+    </string-array>
+
+</resources>

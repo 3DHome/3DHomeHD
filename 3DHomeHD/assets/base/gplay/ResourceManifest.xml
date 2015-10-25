@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BorqsResource version="1" defaultLang="en_US">
+<id>com.borqs.freehdhome.group_gplay</id>
+<app>com.borqs.freehdhome</app>
+<category>object</category>
+<name>
+  <langs>
+    <en_US>group_gplay</en_US>
+    <zh_CN>&#26143;&#31354;</zh_CN>
+  </langs>
+</name>
+<description>
+  <langs>
+    <en_US></en_US>
+    <zh_CN></zh_CN>
+  </langs>
+</description>
+<authorName></authorName>
+<logo></logo>
+<cover>cover.png</cover>
+<screenshot1></screenshot1>
+<screenshot2></screenshot2>
+<screenshot3></screenshot3>
+<screenshot4></screenshot4>
+<version>1</version>
+<supportedMod></supportedMod>
+<versionName>
+  <langs>
+    <en_US></en_US>
+    <zh_CN></zh_CN>
+  </langs>
+</versionName>
+<recentChange>
+  <langs>
+    <en_US></en_US>
+    <zh_CN></zh_CN>
+  </langs>
+</recentChange>
+</BorqsResource>

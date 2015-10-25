@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mountPointsConfig>
+    <mountPoints containerType="1" containerName="fangzhuo_hengpai_5_point" groupName="fangzhuo_4_ding@desk">
+        <mountPointData mountPointName="c_fangzhuo_hengpai_5_point_01" translatex="246.66" translatey="-0.00208581" translatez="9.03239" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_fangzhuo_hengpai_5_point_02" translatex="123.33" translatey="-0.000992907" translatez="9.03239" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_fangzhuo_hengpai_5_point_03" translatex="0" translatey="0" translatez="9.03239" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_fangzhuo_hengpai_5_point_04" translatex="-123.33" translatey="0.000992907" translatez="9.03239" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_fangzhuo_hengpai_5_point_05" translatex="-246.659" translatey="0.00208581" translatez="9.03239" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+</mountPointsConfig>

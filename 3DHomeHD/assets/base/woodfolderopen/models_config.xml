@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="woodfolderopen" className="com.borqs.se.widget3d.NormalObject" sceneName="home8" type="Folder" assetsPath="assets/base/woodfolderopen" sceneFile="woodfolderopen_scene.cbf" basedataFile="woodfolderopen_basedata.cbf" childNames="object_folder02b@woodfolderopen" keyWords="woodfolderopen"  spanX="4" spanY="4" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0">
+    <imageInfos themeName="default">
+        <imageInfo imageName="object_folder02b_fhq.jpg@woodfolderopen_basedata.cbf" imagePath="assets/base/woodfolderopen/object_folder02b_fhq.jpg" />
+    </imageInfos>    
+</config>

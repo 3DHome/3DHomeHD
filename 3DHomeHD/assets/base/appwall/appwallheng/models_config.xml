@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="group_appwallheng" className="com.borqs.se.widget3d.AppWall" 
+    sceneName="home8" assetsPath="assets/base/appwall/appwallheng" sceneFile="appwallheng_scene.cbf" 
+    basedataFile="appwallheng_basedata.cbf" type="app_wall" 
+    slotType="wall" spanX="4" spanY="2"
+    previewTrans="0,0,60,0,0,0,1,0.2,0.2,0.2" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0"
+    childNames="Plane01@group_appwallheng@appwallheng_basedata.cbf,
+    Plane02@group_appwallheng@appwallheng_basedata.cbf" >
+    <imageInfos themeName="default">
+        <imageInfo imageName="home_appwall02_zch.png@appwallheng_basedata.cbf" 
+            imagePath="assets/base/appwall/home_appwall02_zch.png" />
+        <imageInfo imageName="home_appwall04_zch.png@appwallheng_basedata.cbf" 
+            imagePath="assets/base/appwall/home_appwall04_zch.png" />
+    </imageInfos>
+</config>

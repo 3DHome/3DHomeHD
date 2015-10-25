@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="group_sms" className="com.borqs.se.widget3d.NormalObject"
+	sceneName="home8" type="SMS" assetsPath="assets/base/sms" sceneFile="sms_scene.cbf"
+	basedataFile="sms_basedata.cbf" slotType="desktop" keyWords="sms,mms,message"
+	localTrans="0,0,0,0,0,0,1,1.2,1.2,1.2" previewTrans="0,0,0,0,0,0,1,1.2,1.2,1.2">
+	<imageInfos themeName="default">
+		<imageInfo imageName="yinying.png@sms_basedata.cbf"
+			imagePath="assets/base/sms/yinying.png" />
+		<imageInfo imageName="duanxin.jpg@sms_basedata.cbf"
+			imagePath="assets/base/sms/duanxin.jpg" />
+	</imageInfos>
+</config>
+	

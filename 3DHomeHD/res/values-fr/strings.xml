@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">3DHome HD</string>
+    <string name="description">The unprecedented true 3D home screen experience.The real world is 3D, 
+        unlike any other home screen design, this 3D launcher simulates your home and
+        how you use your staff, Phone, TV, Camera, Clock, Calendar, etc.
+        in your day-today life. It brings you a fresh and brand new mobile operation
+        experience.</string>
+
+    <!-- Home setting strings -->
+    <string name="menu_preference">Paramètres accueil</string>    
+    <string name="setting_display">Paramètres affichage</string>
+    <string name="themes">thèmes</string>
+    <string name="theme_summary">Télécharger et appliquer le thème</string>
+    <string name="objects">objets 3D</string>
+    <string name="object_summary">Télécharger et gestionnaire d\'objets 3D</string>
+    <string name="setting_style">Les réglages de style</string>
+    <string name="wall_objects_background_title">Icône de l\'raccourci et un widget fond</string>
+    <string name="wall_objects_background_summary">Réglez fond pour les raccourci et les widgets</string>
+    <string name="choose_background_dialog_title">Choisissez le fond</string>
+    <string name="full_screen">Plein écran</string>
+    <string name="confirm">OK</string>
+    <string name="cancel">résilier</string>
+    <string name="full_screen_dialog_message">Passer en mode plein écran?</string>
+    <string name="enable">Activer</string>
+    <string name="disable">Désactiver</string>
+    <string name="unlock_screen_animation">Déverrouillez animation de l\'écran</string>
+    <string name="weather_settings">Paramètres météo</string>
+    <string name="weather_summary">Définissez l\'emplacement, les unités</string>
+    <string name="update_settings">Version SW</string>
+    <string name="upgrade_title">Vérifier mise à jour</string>
+    <string name="share">Partager</string>
+    <string name="score">Score</string>
+    <string name="feedback">Commentaires</string>
+    <string name="help">Aide</string>
+    <string name="about">A Propos</string>
+
+    <!-- Customize house setting strings  -->
+    <string name="edit_wall_menu_title">Sélectionnez Fond d\'écran</string>
+
+    <!-- Theme setting strings -->
+    <string name="theme_loading">chargement</string>
+    <string name="action_download">télécharger</string>
+    <string name="action_downloaded">téléchargé</string>
+    <string name="action_waiting">attente</string>
+    <string name="action_delete">effacer</string>
+    <string name="action_apply">appliquer</string>
+    <string name="action_using">Actuellement utilisé</string>
+    <string name="no_local_theme">Aucun des thèmes locaux</string>
+    <string name="more_themes">Plus de thèmes</string>
+    <string name="online_theme">thèmes en ligne</string>
+    <string name="preview">avant-première</string>
+    <string name="progress_prefix">Téléchargement&#8230;</string>
+    <string name="delete_theme_title">Supprimer thème</string>
+    <string name="notify_user_apply">Passez au thème <xliff:g id="name">%s</xliff:g>.</string>
+    <string name="confirm_delete_selected_theme">Supprimer le <xliff:g id="name">%s</xliff:g>?</string>
+
+    <!-- 3D Objects setting strings -->
+    <string name="no_local_object">Aucun des objets locaux 3D</string>
+    <string name="online_object">En ligne d\'objets 3D</string>
+    <string name="local_object">Locales objets 3D</string>
+    <string name="delete_objects_title">Supprimer objets 3D</string>
+    <string name="confirm_delete_selected_objects">Supprimer le <xliff:g id="name">%s</xliff:g>?</string>
+
+    <!-- Weather setting strings -->
+    <string name="auto_update_common">Paramètres communs</string>
+    <string name="auto_location_title">Utiliser ma localisation</string>
+    <string name="auto_location_summary">Détermine automatiquement ma localisation</string>    
+    <string name="set_location_title">Définir localisation</string>
+    <string name="set_location_msg">Entrer nom de la ville: </string>
+    <string name="city_name_error">Le nom de la ville ne peut pas être vide.</string>
+    <string name="dialog_choose_city">Choisissez la ville</string>
+    <string name="weather_update_success">Localisation de la météo mis à jour.</string>    
+    <string name="update_now_title">Mettre à jour maintenant</string>
+    <string name="update_now_summary">Soyez sûr que le réseau est connecté.</string>    
+    <string name="switch_units_title">Utiliser métrique</string>
+    <string name="switch_units_summary">Bascule métrique/unités impériales</string>    
+    <string name="auto_update_setting">Paramètres mise à jour auto</string>
+    <string name="auto_update_title">Mettre à jour auto</string>
+    <string name="auto_update_summary">Obtenir automatiquement des infos de la météo par le réseau</string>
+    <string name="start_time_title">Heure de début</string>
+    <string name="end_time_title">Heure de fin</string>
+    <string name="interval_time_title">Heure d\'intervalle</string>
+    <string name="interval_time_summary">3 heures</string>
+    <string name="get_latest_weather_failed">Echec pour obtenir les dernières infos météo.</string>
+    <string name="wait_dialog_title">Svp patientez\u2026</string>
+    <string name="wait_dialog_msg_weather">Recherche\u2026</string>
+    <string name="req_error">Echec pour obtenir les infos météo.</string>
+    <string name="locate_error">Echec pour obtenir la localisation actuelle.</string>
+    
+    <!-- Check update strings -->
+    <string name="network_error">Svp soyez sûr que votre mobile est connecté avec le réseau.</string>
+    <string name="no_update">Votre application est à jour.</string>
+    <string name="check_update_error">Echec pour vérifier et mettre à jour la version SW  à cause d\'une indisponibilité du réseau ou une issue du serveur, 
+Svp réessayez plus tard.</string>
+    <string name="upgrade_dialog_title">Mettre à jour SW</string>
+    <string name="wait_dialog_msg_sw">Vérification\u2026</string>
+    <string name="upgrade_dialog_msg">Nouvelle version trouvée, la télécharger?</string>
+    <string name="upgrade_dialog_current_version">Version actuelle: </string>
+    <string name="upgrade_dialog_latest_version">Dernière version: </string>
+    <string name="upgrade_dialog_file_size">Taille fichier: </string>
+    <string name="upgrade_dialog_update_changes">Relâcher note: </string>
+    <string name="upgrade_dialog_ok">Télécharger</string>
+    <string name="upgrade_dialog_cancel">Annuler</string>
+
+    <string name="share_content">J\'ai installé le Home 3D, Recommandez-vous l\'essayez,Téléchargez adresse: \n%1$s=%2$s</string>
+
+    <!-- Help strings -->    
+    <string name="help_menu_0">Afficher applications</string>
+    <string name="help_menu_1">Ajouter application</string>
+    <string name="help_menu_2">Applications mur</string>
+    <string name="help_menu_3">Supprimer objet</string>
+    <string name="help_menu_4">Afficher objets</string>
+    <string name="help_menu_5">Télécharger des objets</string>
+    <string name="help_menu_6">Afficher météo</string>
+    <string name="help_0">Cliquer sur l\'ordinateur portable pour parcourir toutes les applications.</string>
+    <string name="help_1">Appui long sur l\'icône de l\'application pour l\'ajouter sur la scène comme raccourci.</string>
+    <string name="help_2">Un appui long sur le widget pour modifier sa taille.</string>
+    <string name="help_3">Supprimer les objets de la scène à travers jetant / glisser vers poubelle.</string>
+    <string name="help_4">Cliquer sur menu \"objets 3D\"  pour afficher tous les objets 3D qui peuvent être ajoutés à la scène.</string>
+    <string name="help_5">Cliquez sur \"Shop\" pour télécharger de nouveaux objets.</string>
+    <string name="help_6">Cliquer sur le ciel pour afficher la météo d\'aujourd\'hui.</string>
+
+    <!-- About strings -->
+    <string name="about_version">Version: %s</string>
+    <string name="about_website">Company website: http://www.borqs.com/</string>
+
+    <!-- Weather strings -->
+    <string name="dialog_gls_msg">Cette application souhaite utiliser votre localisation actuelle. Svp activez la source 
+Ma Localisation dans les paramètres du système.</string>
+    <string name="no_info_msg">Aucune info météo disponible.</string>
+
+    <!-- Main menu strings -->
+    <string name="shortcut_title">Raccourcis</string>
+    <string name="app_title">Applications</string>
+    <string name="click_menu_shortcut">Appui long pour choisir un raccourci</string>
+
+    <string name="gadget_error_text">Avertissement sur le chargement du widget</string>
+    <string name="activity_not_found">L\'application n\'est pas installée.</string>
+    <string name="uninstall_system_app_text">Impossible de désinstaller l\'application au niveau du système.</string>
+    <string name="delete_preset_object_text">Impossible de supprimer des objets prédéfinis.</string>
+
+    <!-- 3D Object strings -->
+    <string name="select_app">Sélectionner application</string>
+
+    <!-- Room strings -->
+    <string name="no_room">Plus de place sur le mur de la scène.</string>
+    <string name="no_room_desk">Plus de place sur le bureau de la scène.</string>
+
+    <!-- below strings have not been translated to other languages -->
+
+    <string name="menu_item_00">Ajouter</string>
+    <string name="menu_item_01">Objets 3D</string>
+    <string name="menu_item_02">Thème</string>
+    <string name="menu_item_03">Préférences</string>
+    <string name="menu_item_04">Réglages</string>
+    <string name="menu_item_05">Applications</string>
+
+    <!-- Orientation settings -->
+    <string name="orientation_preferred_summary">Set orientation</string>
+    <string name="orientation_preferred_dialog_title">Set orientation</string>
+    <string name="orientation_preferred_title">Set orientation</string>
+    
+    <string name="search_activity_title">Google recherche</string>
+    <string name="search_activity_hint_text">Saisissez votre recherche mots-clés</string>
+    <string name="search_activity_button_text">Rechercher</string>
+    
+    <!-- Long click object menu icon text -->
+    <string name="long_click_object_menu_delete">Supprimer</string>
+    <string name="long_click_object_menu_change_bind">Lier</string>
+    <string name="long_click_object_menu_change_icon">Icône</string>
+    <string name="long_click_object_menu_change_label">Nom</string>
+    <string name="long_click_object_menu_uninstall">Désinstaller</string>
+    <string name="long_click_object_menu_resize">Redimensionner</string>
+  
+    <!-- Settings AD Content -->
+    <string name="ad_content_title">Contenu publicitaire personnalisé</string>
+    <string name="ad_content_dialog_title">Définir le contenu de la publicité</string>
+    <string name="ad_content_summary">Définir le contenu de la publicité pour le dirigeable</string>
+    <string name="ad_default_blessings">Bonne chance!!!</string>
+  
+    <string name="show_shelf">afficher plateau</string>
+</resources>

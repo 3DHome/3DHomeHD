@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theme_entries_8">
+        <item>木質</item>
+        <item>白い光</item>
+        <item>黑い光</item>
+    </string-array>
+    <string-array name="months">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>日</item>
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+    </string-array>
+    <string-array name="menus">
+        <item>3Dオブジェクト</item>
+        <item>壁紙の切り替え</item>
+        <item>メイン画面設置</item>
+        <item>系統設置</item>
+        <!-- <item>アプリケーションを管理</item> -->
+    </string-array>
+    <string-array name="interval_time_entries">
+        <item>30 分</item>
+        <item>1 時間</item>
+        <item>2 時間</item>
+        <item>3 時間</item>
+        <item>4 時間</item>
+        <item>5 時間</item>
+    </string-array>
+    <string-array name="edit_wall_menu_item">
+        <item>絵</item>
+        <item>カメラ</item>
+        <item>デフォルトの設定に戻す</item>
+    </string-array>
+    <string-array name="appicon_style_entries">
+        <item>なし</item>
+        <item>ブラック</item>
+        <item>ブラウン</item>
+        <item>グレー</item>
+    </string-array>
+    <!-- below strings have not been translated to other languages -->
+    <string-array name="long_click_wall">
+        <item>3Dオブジェクトを追加</item>
+        <item>アプリを追加</item>
+        <item>ショートカットを追加</item>
+        <item>ウィジェットを追加</item>
+        <item>壁紙を変える</item>
+        <item>Wallpaper suite</item>
+    </string-array>
+
+    <string-array name="orientation_preferred_entries">
+        <!-- <item>Auto rotation</item> -->
+        <item>Landscape</item>
+        <item>Portrait</item>
+    </string-array>
+</resources>

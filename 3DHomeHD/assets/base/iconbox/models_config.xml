@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="group_iconbox" className="com.borqs.se.widget3d.IconBox" sceneName="home8" type="IconBox" assetsPath="assets/base/iconbox" sceneFile="iconbox_scene.cbf" basedataFile="iconbox_basedata.cbf" childNames="iconbox_01@group_iconbox,Object01@group_iconbox,touying_dh@group_iconbox" keyWords="iconbox" slotType="desktop" spanX="2" spanY="2" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0">
+    <imageInfos themeName="default">
+        <imageInfo imageName="iconbox02_fhq.jpg@iconbox_basedata.cbf" imagePath="assets/base/iconbox/iconbox02_fhq.jpg" />
+        <imageInfo imageName="iconbox01_fhq.jpg@iconbox_basedata.cbf" imagePath="assets/base/iconbox/iconbox01_fhq.jpg" />
+        <imageInfo imageName="yinying.png@iconbox_basedata.cbf" imagePath="assets/base/iconbox/yinying.png" />
+    </imageInfos>
+    <childrenAttribute>
+        <child>
+            <geometry spatialName="iconbox_01@group_iconbox" />
+            <lights />
+            <geostatus statusValue="2113536" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="Object01@group_iconbox" />
+            <lights />
+            <geostatus statusValue="2113568" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="touying_dh@group_iconbox" />
+            <lights />
+            <geostatus statusValue="2113557" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+    </childrenAttribute>
+</config>

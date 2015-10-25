@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="jiaziport" className="com.borqs.se.widget3d.WallShelf" sceneName="home8" type="jiazi" assetsPath="assets/base/jiaziport" sceneFile="jiaziport_scene.cbf" basedataFile="jiaziport_basedata.cbf" childNames="Box04@jiaziport,Plane04@jiaziport" keyWords="jiaziport" slotType="" spanX="2" spanY="2" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" minPoint="-94.4368,-111.542,-139.052" maxPoint="94.4368,-0.5846,-0.0791">
+    <imageInfos themeName="default">
+        <imageInfo imageName="hd_object_jiazi_zch.jpg@jiaziport_basedata.cbf" imagePath="assets/base/jiaziport/hd_object_jiazi_zch.jpg" />
+        <imageInfo imageName="hd_object_jiazitouying_zch.png@jiaziport_basedata.cbf" imagePath="assets/base/jiaziport/hd_object_jiazitouying_zch.png" />
+    </imageInfos>
+    <childrenAttribute>
+        <child>
+            <geometry spatialName="Box04@jiaziport" />
+            <lights />
+            <geostatus statusValue="2113536" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="Plane04@jiaziport" />
+            <lights />
+            <geostatus statusValue="1064965" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+    </childrenAttribute>
+</config>

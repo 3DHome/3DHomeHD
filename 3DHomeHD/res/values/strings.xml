@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">3DHome HD</string>
+    <string name="description">The unprecedented true 3D home screen experience.The real world is 3D,
+        unlike any other home screen design, this 3D launcher simulates your home and
+        how you use your staff, Phone, TV, Camera, Clock, Calendar, etc.
+        in your day-today life. It brings you a fresh and brand new mobile operation
+        experience.</string>
+
+    <!-- Home setting strings -->
+    <string name="menu_preference">Home settings</string>
+    <string name="setting_display">Display settings</string>
+    <string name="themes">Themes</string>
+    <string name="theme_summary">Download and apply theme</string>
+    <string name="wallpapers">Wall Paper</string>
+    <string name="wallpaper_summary">Download and apply Wall paper</string>
+    <string name="setting_style">Style settings</string>
+    <string name="wall_objects_background_title">Shortcut&#038; widget background</string>
+    <string name="wall_objects_background_summary">Set background for shortcuts and widgets in wall</string>
+    <string name="choose_background_dialog_title">Choose background</string>
+    <string name="full_screen">Full screen</string>
+    <string name="show_shelf">Show Shelf</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="unlock_screen_animation">Unlock screen animation</string>
+    <string name="weather_settings">Weather settings</string>
+    <string name="weather_summary">Set location, units</string>
+    <string name="update_settings">SW version</string>
+    <string name="upgrade_title">Check update</string>
+    <string name="share">Share</string>
+    <string name="score">Score</string>
+    <string name="feedback">Feedback</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="test">Test</string>
+
+    <!-- Customize house setting strings  -->
+    <string name="edit_wall_menu_title">Select wallpaper</string>
+
+    <!-- Theme setting strings -->
+    <string name="theme_loading">Loading</string>
+    <string name="action_download">Download</string>
+    <string name="action_downloaded">Downloaded</string>
+    <string name="action_waiting">Waiting</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_using">Currently used</string>
+    <string name="no_local_theme">No local themes</string>
+    <string name="more_themes">More themes</string>
+    <string name="online_theme">Online themes</string>
+    <string name="preview">Preview</string>
+    <string name="progress_prefix">Downloading&#8230;</string>
+    <string name="delete_theme_title">Delete theme</string>
+    <string name="notify_user_apply">Switch to the <xliff:g id="name">%s</xliff:g> theme successfully.</string>
+    <string name="confirm_delete_selected_theme">Delete <xliff:g id="name">%s</xliff:g>?</string>
+
+    <!-- 3D Objects setting strings -->
+    <string name="no_local_object">No local 3D objects</string>
+    <string name="online_object">Online 3D Objects</string>
+    <string name="local_object">Local 3D Objects</string>
+    <string name="delete_objects_title">Delete 3D Objects</string>
+    <string name="confirm_delete_selected_objects">Delete <xliff:g id="name">%s</xliff:g>?</string>
+
+    <!-- Weather setting strings -->
+    <string name="auto_update_common">Common settings</string>
+    <string name="auto_location_title">Use my location</string>
+    <string name="auto_location_summary">Automatically determine location</string>
+    <string name="set_location_title">Set location</string>
+    <string name="set_location_msg">Enter a city name: </string>
+    <string name="city_name_error">City name can not be null.</string>
+    <string name="dialog_choose_city">Choose city</string>
+    <string name="weather_update_success">Weather location updated.</string>
+    <string name="update_now_title">Update now</string>
+    <string name="update_now_summary">Make sure network is connected.</string>
+    <string name="switch_units_title">Use metric</string>
+    <string name="switch_units_summary">Toggle metric/imperial units</string>
+    <string name="auto_update_setting">Auto-update settings</string>
+    <string name="auto_update_title">Update automatically</string>
+    <string name="auto_update_summary">Automatically get weather information through the network</string>
+    <string name="start_time_title">Start time</string>
+    <string name="end_time_title">End time</string>
+    <string name="interval_time_title">Interval time</string>
+    <string name="interval_time_summary">3 hours</string>
+    <string name="get_latest_weather_failed">Failed to get the latest weather information.</string>
+    <string name="wait_dialog_title">Please wait\u2026</string>
+    <string name="wait_dialog_msg_weather">Searching\u2026</string>
+    <string name="req_error">Failed to get weather information.</string>
+    <string name="locate_error">Failed to get current location.</string>
+
+    <!-- Check update strings -->
+    <string name="network_error">Please make sure your phone is connected with network.</string>
+    <string name="no_update">Your application is up to date.</string>
+    <string name="check_update_error">Fail to check and upgrade SW version due to temporal network or server issue,
+        please retry it later.</string>
+    <string name="upgrade_dialog_title">Upgrade SW</string>
+    <string name="wait_dialog_msg_sw">Checking\u2026</string>
+    <string name="upgrade_dialog_msg">New version found, download it?</string>
+    <string name="upgrade_dialog_current_version">Current version: </string>
+    <string name="upgrade_dialog_latest_version">Latest version:</string>
+    <string name="upgrade_dialog_file_size">File size:</string>
+    <string name="upgrade_dialog_update_changes">Release note:</string>
+    <string name="upgrade_dialog_ok">Download</string>
+    <string name="upgrade_dialog_cancel">Cancel</string>
+
+    <string name="share_content">I installed the 3D Home,Recommend you try it,Download address:\n %1$s=%2$s</string>
+
+    <!-- Help strings -->
+    <string name="help_menu_0">Show applications</string>
+    <string name="help_menu_1">Add application</string>
+    <string name="help_menu_2">Application wall</string>
+    <string name="help_menu_3">Delete object</string>
+    <string name="help_menu_4">Show objects</string>
+    <string name="help_menu_5">Download objects</string>
+    <string name="help_menu_6">Show weather</string>
+    <string name="help_0">Click the laptop to browse all applications.</string>
+    <string name="help_1">Long press application icon to add it to scene as a shortcut.</string>
+    <string name="help_2">Long press application icon to add it to application wall.</string>
+    <string name="help_3">Delete objects from the scene through throwing/dragging it to garbage can.</string>
+    <string name="help_4">Click \"3D objects\" menu to show all 3D objects that can be added to scene.</string>
+    <string name="help_5">Click \"Shop\" to download new objects.</string>
+    <string name="help_6">Click the sky to show weather of today.</string>
+
+    <!-- About strings -->
+    <string name="about_version">Version: %s</string>
+    <string name="about_copy_right1" translatable="false">Copyright © 2013 Borqs Ltd.  All rights reserved.</string>
+    <string name="about_website">Company website: http://www.borqs.com/</string>
+
+    <!-- Weather strings -->
+    <string name="dialog_gls_msg">This application would like to use your current location. Please enable a My
+        Location source in system settings.</string>
+    <string name="no_info_msg">No weather information is available.</string>
+
+    <!-- Main menu strings -->
+    <string name="shortcut_title">Shortcuts</string>
+    <string name="app_title">Applications</string>
+    <string name="click_menu_shortcut">Long press to pick a shortcut</string>
+
+    <string name="gadget_error_text">Warning on loading widget</string>
+    <string name="activity_not_found">Application isn\'t installed.</string>
+    <string name="uninstall_system_app_text">Unable to uninstall system-level application.</string>
+    <string name="delete_preset_object_text">Unable to delete preset objects.</string>
+
+    <!-- 3D Object strings -->
+    <string name="select_app">Select application</string>
+
+    <!-- Room strings -->
+    <string name="no_room">No more room on the wall of scene.</string>
+    <string name="no_room_desk">No more room on the desktop of scene.</string>
+
+    <!-- don't need translate below strings -->
+    <string name="show_fps" translatable="false">Frame rate</string>
+    <string name="show_fps_on" translatable="false">Deselect to hide FPS</string>
+    <string name="show_fps_off" translatable="false">Select to show FPS</string>
+    <string name="no_info" translatable="false">N/A</string>
+    <string name="temp_symbol_c" translatable="false">°C</string>
+    <string name="temp_symbol_f" translatable="false">°F</string>
+    <string name="symbol_to" translatable="false">~</string>
+    <string name="start_time_summary" translatable="false">07:00</string>
+    <string name="end_time_summary" translatable="false">21:00</string>
+
+    <string name="about_acknowledgements">Thank the following personnel to provide language translation for 3DHome UI.</string>
+
+    <string name="french_translation">Johan Jaworski</string>
+    <string name="italian_translation">Antonio Guarnaschelli</string>
+    <string name="russian_translation">Кирилл Вавилов</string>
+    <string name="about_website_google_plus" translatable="false">Google+: https://plus.google.com/communities/115452609761145720764 </string>
+    
+    <!-- Settings AD Content -->
+    <string name="ad_content_title">Custom advertising content</string>
+    <string name="ad_content_dialog_title">Set the advertising content</string>
+    <string name="ad_content_summary">Set advertising content for the airship</string>
+    <string name="ad_default_blessings">Good luck!!!</string>
+
+    <!-- Orientation settings -->
+    <string name="orientation_preferred_summary">Set orientation</string>
+    <string name="orientation_preferred_dialog_title">Set orientation</string>
+    <string name="orientation_preferred_title">Set orientation</string>
+    
+    <string name="wall_option_add_object">Add 3D object</string>
+    <string name="wall_option_add_app">Add application</string>
+    <string name="wall_option_add_shortcut">Add shortcut</string>
+    <string name="wall_option_add_wdiget">Add widget</string>
+    <string name="wall_option_change_wallpaper">Change wallpaper</string>
+    
+    <string name="search_activity_title">Google Search</string>
+    <string name="search_activity_hint_text">Input your search keywords</string>
+    <string name="search_activity_button_text">Search</string>
+
+    <!-- Long click object menu icon text -->
+    <string name="long_click_object_menu_delete">Delete</string>
+    <string name="long_click_object_menu_change_bind">Bind</string>
+    <string name="long_click_object_menu_change_icon">Icon</string>
+    <string name="long_click_object_menu_change_label">Label</string>
+    <string name="long_click_object_menu_uninstall">Uninstall</string>
+    <string name="long_click_object_menu_resize">Resize</string>
+
+    <string name="user_share_description">Show my using wallpapers to community</string>
+
+    <string name="ad_removal_title">Remove AD</string>
+    <string name="ad_removal_description">Remove AD from airship(to perform this In-App product, your device not to support In-App-Billing)</string>
+    <string name="ad_dismiss_title">Remove both airplanes and AD flag</string>
+    <string name="ad_dismiss_on">Remove airplanes with AD flag from sky.</string>
+    <string name="ad_dismiss_off">Remove AD only, keep the airplanes with the flag that could write your words.</string>
+</resources>

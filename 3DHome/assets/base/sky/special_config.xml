@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<config>
-
-    <!-- 俯视桌面的相机位置78(fov),0,-1000,600(location),0,-0.866,0.5(axisZ) -->
-
-    <observation_land value="78,0,-747.59,181.508,0,-0.6746,-0.738" />
-
-</config>

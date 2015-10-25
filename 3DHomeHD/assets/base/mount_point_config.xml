@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MountPointConfigSet name="t1">
+    <MountPointConfig objectname="yuanzhuo" packagename="assets" path="base/yuanzhuo/mountpoint.xml" >
+        <Animation type="translate" trace="circle" framecount="10" />
+    </MountPointConfig>
+    <MountPointConfig objectname="desk_fang" packagename="assets" path="base/desk_fang/mountpoint.xml" >
+        <Animation type="translate" trace="linear" framecount="10" />
+    </MountPointConfig>
+    <MountPointConfig objectname="ipad" packagename="assets" path="base/ipad/mountpoint.xml" />
+    <!--<MountPointConfig objectname="group_house8" packagename="assets" path="base/home8/mountpoint.xml" />-->
+    <MountPointConfig objectname="home4mian" packagename="assets" path="base/home4mian/mountpoint.xml" type = "matrix"/>
+    <!-- <MountPointConfig objectname="jiazi" packagename="assets" path="base/jiazi/mountpoint.xml" /> -->
+</MountPointConfigSet>

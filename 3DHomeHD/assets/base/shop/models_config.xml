@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config
+    name="shop"
+    assetsPath="assets/base/shop"
+    basedataFile="shop_basedata.cbf"
+    className="com.borqs.se.widget3d.ObjectsMenuItem"
+    keyWords="shop"
+    localTrans="0,0,0,0,0,0,1,7.0,7.0,7.0"
+    previewTrans="0,0,0,0,0,0,1,5.0,5.0,5.0"
+    sceneFile="shop_scene.cbf"
+    sceneName="home8"
+    type="shop" >
+
+    <imageInfos themeName="default" >
+        <imageInfo
+            imageName="object_shop01_fhq.jpg@shop_basedata.cbf"
+            imagePath="assets/base/shop/object_shop01_fhq.jpg" />
+    </imageInfos>
+
+</config>

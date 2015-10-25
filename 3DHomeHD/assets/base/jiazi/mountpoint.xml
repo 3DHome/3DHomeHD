@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mountPointsConfig>
+    <mountPoints containerType="1" containerName="jiazi_2_point" groupName="Box04@jiazi">
+        <mountPointData mountPointName="c_jiazi_2_point_01" translatex="0.0005" translatey="-57.3107" translatez="0.0316" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+</mountPointsConfig>

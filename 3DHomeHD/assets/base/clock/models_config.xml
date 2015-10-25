@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="group_clock" type="Clock" assetsPath="assets/base/clock"
+        sceneName="home8" className="com.borqs.se.widget3d.Clock" sceneFile="clock_scene.cbf" basedataFile="clock_basedata.cbf"
+        childNames="clock_hour@group_clock,
+		clock_min@group_clock,
+		clock_sec@group_clock,
+		Cylinder05@group_clock"
+        keyWords="clock" slotType="wall" spanX="2" spanY="2"
+        previewTrans="0,0,0,0,0,0,1,0.5,0.5,0.5" localTrans="0,0,0,0,0,0,1,1.7,1.7,1.7">
+    <imageInfos themeName="default">
+        <imageInfo imageName="qiangshangyinying.png@clock_basedata.cbf" imagePath="assets/base/clock/qiangshangyinying.png" />
+        <imageInfo imageName="guabiao.jpg@clock_basedata.cbf" imagePath="assets/base/clock/guabiao.jpg" />
+        <imageInfo imageName="guabiao.jpg@clock_basedata.cbf_0" imagePath="assets/base/clock/guabiao.jpg" />
+        <imageInfo imageName="guabiao.jpg@clock_basedata.cbf_1" imagePath="assets/base/clock/guabiao.jpg" />
+        <imageInfo imageName="guabiao.jpg@clock_basedata.cbf_2" imagePath="assets/base/clock/guabiao.jpg" />
+    </imageInfos>
+    <childrenAttribute>
+        <child>
+            <geometry spatialName="yingzi02@group_clock" />
+            <lights />
+            <geostatus statusValue="1064981" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="clock_hour@group_clock" />
+            <lights />
+            <geostatus statusValue="2113536" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="clock_sec@group_clock" />
+            <lights />
+            <geostatus statusValue="2113536" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="Cylinder05@group_clock" />
+            <lights />
+            <geostatus statusValue="2113536" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="clock_min@group_clock" />
+            <lights />
+            <geostatus statusValue="2113536" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+    </childrenAttribute>
+</config>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="nexus4" className="com.borqs.se.widget3d.DesktopObject" sceneName="home8" type="nexus4" assetsPath="assets/base/nexus4" sceneFile="nexus4_scene.cbf" basedataFile="nexus4_basedata.cbf" childNames="touying_dh@nexus4,nexus4@nexus4" keyWords="dial,phone,call" slotType="desktop" spanX="2" spanY="2" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0">
+    <imageInfos themeName="default">
+        <imageInfo imageName="yinying.png@nexus4_basedata.cbf" imagePath="assets/base/nexus4/yinying.png" />
+        <imageInfo imageName="nexus4.jpg@nexus4_basedata.cbf" imagePath="assets/base/nexus4/nexus4.jpg" />
+    </imageInfos>
+    <childrenAttribute>
+        <child>
+            <geometry spatialName="touying_dh@nexus4" />
+            <lights />
+            <geostatus statusValue="2113557" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="nexus4@nexus4" />
+            <lights />
+            <geostatus statusValue="2113568" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+    </childrenAttribute>
+</config>

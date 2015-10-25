@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="nexus10" className="com.borqs.se.widget3d.Laptop" sceneName="home8" type="nexus10" assetsPath="assets/base/nexus10" sceneFile="nexus10_scene.cbf" basedataFile="nexus10_basedata.cbf" childNames="xx_touying@nexus10,zhijia01@nexus10,nexus10@nexus10" keyWords="nexus10" slotType="desktop" spanX="2" spanY="2" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" localTrans="0,0,0,0,0,0,1,1.3,1.3,1.3">
+    <imageInfos themeName="default">
+        <imageInfo imageName="yinying.png@nexus10_basedata.cbf" imagePath="assets/base/nexus10/yinying.png" />
+        <imageInfo imageName="nexus10_dizuo.jpg@nexus10_basedata.cbf" imagePath="assets/base/nexus10/nexus10_dizuo.jpg" />
+        <imageInfo imageName="nexus10.jpg@nexus10_basedata.cbf" imagePath="assets/base/nexus10/nexus10.jpg" />
+    </imageInfos>
+    <childrenAttribute>
+        <child>
+            <geometry spatialName="xx_touying@nexus10" />
+            <lights />
+            <geostatus statusValue="2113557" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="zhijia01@nexus10" />
+            <lights />
+            <geostatus statusValue="2113568" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="nexus10@nexus10" />
+            <lights />
+            <geostatus statusValue="2113568" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+    </childrenAttribute>
+</config>

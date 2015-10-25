@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mountPointsConfig>
+    <mountPoints containerType="1" containerName="qiang_8_point" groupName="wall01@home4mian">
+        <mountPointData mountPointName="c_qiang1_8_point_01" translatex="-847.753" translatey="-12.5408" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_02" translatex="-605.709" translatey="-12.5408" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_03" translatex="-363.658" translatey="-12.5408" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_04" translatex="-121.614" translatey="-12.5408" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_05" translatex="120.438" translatey="-12.5408" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_06" translatex="362.482" translatey="-12.5408" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_07" translatex="604.534" translatey="-12.5408" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_08" translatex="846.578" translatey="-12.5408" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_09" translatex="-847.753" translatey="-12.5408" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_10" translatex="-605.709" translatey="-12.5408" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_11" translatex="-363.658" translatey="-12.5408" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_12" translatex="-121.614" translatey="-12.5408" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_13" translatex="120.438" translatey="-12.5408" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_14" translatex="362.482" translatey="-12.5408" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_15" translatex="604.534" translatey="-12.5408" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_16" translatex="846.578" translatey="-12.5408" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_17" translatex="-847.753" translatey="-12.5408" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_18" translatex="-605.709" translatey="-12.5408" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_19" translatex="-363.658" translatey="-12.5408" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_20" translatex="-121.614" translatey="-12.5408" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_21" translatex="120.438" translatey="-12.5408" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_22" translatex="362.482" translatey="-12.5408" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_23" translatex="604.534" translatey="-12.5408" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang1_8_point_24" translatex="846.578" translatey="-12.5408" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+    <mountPoints containerType="1" containerName="qiang_8_point" groupName="wall02@home4mian">
+        <mountPointData mountPointName="c_qiang2_8_point_25" translatex="362.482" translatey="-12.542" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_26" translatex="120.438" translatey="-12.5411" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_27" translatex="-605.709" translatey="-12.5384" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_28" translatex="-847.753" translatey="-12.5375" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_29" translatex="846.578" translatey="-12.5438" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_30" translatex="604.534" translatey="-12.5429" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_31" translatex="-121.614" translatey="-12.5402" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_32" translatex="-363.658" translatey="-12.5393" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_33" translatex="-605.709" translatey="-12.5384" translatez="-19.5669" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_34" translatex="-847.753" translatey="-12.5375" translatez="-19.5667" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_35" translatex="362.482" translatey="-12.542" translatez="-19.5667" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_36" translatex="120.438" translatey="-12.5411" translatez="-19.5669" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_37" translatex="846.578" translatey="-12.5438" translatez="-19.5669" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_38" translatex="604.534" translatey="-12.5429" translatez="-19.5667" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_39" translatex="-121.614" translatey="-12.5402" translatez="-19.5667" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_40" translatex="-363.658" translatey="-12.5393" translatez="-19.5669" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_41" translatex="-121.614" translatey="-12.5402" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_42" translatex="-363.658" translatey="-12.5393" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_43" translatex="-605.709" translatey="-12.5384" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_44" translatex="-847.753" translatey="-12.5375" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_45" translatex="362.482" translatey="-12.542" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_46" translatex="120.438" translatey="-12.541" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_47" translatex="846.578" translatey="-12.5436" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang2_8_point_48" translatex="604.534" translatey="-12.5427" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+    <mountPoints containerType="1" containerName="qiang_8_point" groupName="wall03@home4mian">
+        <mountPointData mountPointName="c_qiang3_8_point_49" translatex="362.482" translatey="-12.5432" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_50" translatex="120.438" translatey="-12.5415" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_51" translatex="-605.709" translatey="-12.5365" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_52" translatex="-847.753" translatey="-12.5349" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_53" translatex="846.578" translatey="-12.5464" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_54" translatex="604.534" translatey="-12.5448" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_55" translatex="-121.614" translatey="-12.5398" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_56" translatex="-363.658" translatey="-12.5381" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_57" translatex="-605.709" translatey="-12.5365" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_58" translatex="-847.753" translatey="-12.5349" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_59" translatex="362.482" translatey="-12.5432" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_60" translatex="120.438" translatey="-12.5415" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_61" translatex="846.578" translatey="-12.5464" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_62" translatex="604.534" translatey="-12.5448" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_63" translatex="-121.614" translatey="-12.5398" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_64" translatex="-363.658" translatey="-12.5381" translatez="-19.5668" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_65" translatex="-121.614" translatey="-12.5398" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_66" translatex="-363.658" translatey="-12.5381" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_67" translatex="-605.709" translatey="-12.5365" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_68" translatex="-847.753" translatey="-12.5349" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_69" translatex="362.482" translatey="-12.5432" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_70" translatex="120.438" translatey="-12.5415" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_71" translatex="846.578" translatey="-12.5464" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang3_8_point_72" translatex="604.534" translatey="-12.5448" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+    <mountPoints containerType="1" containerName="qiang_8_point" groupName="wall04@home4mian">
+        <mountPointData mountPointName="c_qiang4_8_point_73" translatex="362.482" translatey="-12.5392" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_74" translatex="120.438" translatey="-12.5401" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_75" translatex="-605.709" translatey="-12.5429" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_76" translatex="-847.753" translatey="-12.5438" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_77" translatex="846.578" translatey="-12.5374" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_78" translatex="604.534" translatey="-12.5383" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_79" translatex="-121.614" translatey="-12.5411" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_80" translatex="-363.658" translatey="-12.542" translatez="-301.389" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_81" translatex="-605.709" translatey="-12.5428" translatez="-19.5667" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_82" translatex="-847.753" translatey="-12.5436" translatez="-19.5669" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_83" translatex="362.482" translatey="-12.5392" translatez="-19.5669" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_84" translatex="120.438" translatey="-12.5401" translatez="-19.5667" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_85" translatex="846.578" translatey="-12.5374" translatez="-19.5667" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_86" translatex="604.534" translatey="-12.5383" translatez="-19.5669" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_87" translatex="-121.614" translatey="-12.541" translatez="-19.5669" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_88" translatex="-363.658" translatey="-12.5419" translatez="-19.5667" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_89" translatex="-121.614" translatey="-12.541" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_90" translatex="-363.658" translatey="-12.5419" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_91" translatex="-605.709" translatey="-12.5428" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_92" translatex="-847.753" translatey="-12.5436" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_93" translatex="362.482" translatey="-12.5392" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_94" translatex="120.438" translatey="-12.5401" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_95" translatex="846.578" translatey="-12.5374" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_qiang4_8_point_96" translatex="604.534" translatey="-12.5384" translatez="262.21" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+    <mountPoints containerType="1" containerName="wall_21_point" groupName="wall01@home4mian">
+        <mountPointData mountPointName="c_wall01_21_point_01" translatex="-843" translatey="0" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_02" translatex="-562" translatey="0" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_03" translatex="-281" translatey="0" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_04" translatex="0" translatey="0" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_05" translatex="281" translatey="0" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_06" translatex="562" translatey="0" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_07" translatex="843" translatey="0" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_08" translatex="-843" translatey="0" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_09" translatex="-562" translatey="0" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_10" translatex="-281" translatey="0" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_11" translatex="0" translatey="0" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_12" translatex="281" translatey="0" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_13" translatex="562" translatey="0" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_14" translatex="843" translatey="0" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_15" translatex="-843" translatey="0" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_16" translatex="-562" translatey="0" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_17" translatex="-281" translatey="0" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_18" translatex="0" translatey="0" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_19" translatex="281" translatey="0" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_20" translatex="562" translatey="0" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_21_point_21" translatex="843" translatey="0" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+    <mountPoints containerType="1" containerName="wall_jiazi_6_point" groupName="wall01@home4mian">
+        <mountPointData mountPointName="c_wall01_jiazi_6_point_01" translatex="-726.628" translatey="0" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_jiazi_6_point_02" translatex="-726.628" translatey="0" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_jiazi_6_point_03" translatex="-726.628" translatey="0" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_jiazi_6_point_04" translatex="725.565" translatey="0" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_jiazi_6_point_05" translatex="725.565" translatey="0" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall01_jiazi_6_point_06" translatex="725.565" translatey="0" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+    <mountPoints containerType="1" containerName="wall_21_point" groupName="wall02@home4mian">
+        <mountPointData mountPointName="c_wall02_21_point_22" translatex="-843" translatey="0.00309777" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_23" translatex="-562" translatey="0.00206518" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_24" translatex="-281" translatey="0.00103259" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_25" translatex="-0.0001" translatey="3.67436e-010" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_26" translatex="281" translatey="-0.00103259" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_27" translatex="562" translatey="-0.00206518" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_28" translatex="843" translatey="-0.00309777" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_29" translatex="-843" translatey="0.00309777" translatez="-19.6162" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_30" translatex="-562" translatey="0.00206518" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_31" translatex="-281" translatey="0.00103259" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_32" translatex="-0.0001" translatey="3.67436e-010" translatez="-19.616" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_33" translatex="281" translatey="-0.00103259" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_34" translatex="562" translatey="-0.00206518" translatez="-19.6162" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_35" translatex="843" translatey="-0.00309777" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_36" translatex="-843" translatey="0.00309777" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_37" translatex="-562" translatey="0.00206518" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_38" translatex="-281" translatey="0.00091052" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_39" translatex="-0.0001" translatey="3.67436e-010" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_40" translatex="281" translatey="-0.00103259" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_41" translatex="562" translatey="-0.00206518" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_21_point_42" translatex="843" translatey="-0.00309777" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+    <mountPoints containerType="1" containerName="wall_jiazi_6_point" groupName="wall02@home4mian">
+        <mountPointData mountPointName="c_wall02_jiazi_6_point_07" translatex="725.52" translatey="-0.00266607" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_jiazi_6_point_08" translatex="725.52" translatey="-0.00266607" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_jiazi_6_point_09" translatex="-726.765" translatey="0.00267064" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_jiazi_6_point_10" translatex="-726.765" translatey="0.00267064" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_jiazi_6_point_11" translatex="-726.765" translatey="0.00267064" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall02_jiazi_6_point_12" translatex="725.52" translatey="-0.00266607" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+    <mountPoints containerType="1" containerName="wall_21_point" groupName="wall03@home4mian">
+        <mountPointData mountPointName="c_wall03_21_point_43" translatex="-843" translatey="0.00585916" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_44" translatex="-562" translatey="0.00382473" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_45" translatex="-281" translatey="0.00191236" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_46" translatex="-9.99996e-005" translatey="7.23958e-010" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_47" translatex="281" translatey="-0.00191236" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_48" translatex="562" translatey="-0.00382473" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_49" translatex="843" translatey="-0.00585916" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_50" translatex="-843" translatey="0.00585916" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_51" translatex="-562" translatey="0.00382473" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_52" translatex="-281" translatey="0.00191236" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_53" translatex="-9.99996e-005" translatey="7.23958e-010" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_54" translatex="281" translatey="-0.00191236" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_55" translatex="562" translatey="-0.00382473" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_56" translatex="843" translatey="-0.00585916" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_57" translatex="-843" translatey="0.00585916" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_58" translatex="-562" translatey="0.00382473" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_59" translatex="-281" translatey="0.00191236" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_60" translatex="-9.99996e-005" translatey="7.23958e-010" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_61" translatex="281" translatey="-0.00191236" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_62" translatex="562" translatey="-0.00382473" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_21_point_63" translatex="843" translatey="-0.00585916" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+    <mountPoints containerType="1" containerName="wall_jiazi_6_point" groupName="wall03@home4mian">
+        <mountPointData mountPointName="c_wall03_jiazi_6_point_13" translatex="726.633" translatey="-0.00501667" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_jiazi_6_point_14" translatex="726.633" translatey="-0.00501667" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_jiazi_6_point_15" translatex="-725.56" translatey="0.0050089" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_jiazi_6_point_16" translatex="-725.56" translatey="0.0050089" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_jiazi_6_point_17" translatex="-725.56" translatey="0.0050089" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall03_jiazi_6_point_18" translatex="726.633" translatey="-0.00501667" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+    <mountPoints containerType="1" containerName="wall_21_point" groupName="wall04@home4mian">
+        <mountPointData mountPointName="c_wall04_21_point_64" translatex="-843" translatey="-0.0029757" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_65" translatex="-562" translatey="-0.00194311" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_66" translatex="-281" translatey="-0.00091052" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_67" translatex="-3.73802e-010" translatey="0.00012207" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_68" translatex="281" translatey="0.00103259" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_69" translatex="562" translatey="0.00218725" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_70" translatex="843" translatey="0.00321984" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_71" translatex="-843" translatey="-0.0029757" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_72" translatex="-562" translatey="-0.00194311" translatez="-19.6162" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_73" translatex="-281" translatey="-0.00091052" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_74" translatex="-3.73802e-010" translatey="0.00012207" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_75" translatex="281" translatey="0.00115466" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_76" translatex="562" translatey="0.00218725" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_77" translatex="843" translatey="0.00321984" translatez="-19.6162" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_78" translatex="-843" translatey="-0.0029757" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_79" translatex="-562" translatey="-0.00194311" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_80" translatex="-281" translatey="-0.00091052" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_81" translatex="-3.73802e-010" translatey="0.00012207" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_82" translatex="281" translatey="0.00115466" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_83" translatex="562" translatey="0.00230932" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_21_point_84" translatex="843" translatey="0.00321984" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+    <mountPoints containerType="1" containerName="wall_jiazi_6_point" groupName="wall04@home4mian">
+        <mountPointData mountPointName="c_wall04_jiazi_6_point_19" translatex="725.48" translatey="0.00278799" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_jiazi_6_point_20" translatex="725.48" translatey="0.00278799" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_jiazi_6_point_21" translatex="-726.854" translatey="-0.0025489" translatez="-301.429" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_jiazi_6_point_22" translatex="-726.854" translatey="-0.0025489" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_jiazi_6_point_23" translatex="-726.854" translatey="-0.0025489" translatez="262.198" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_wall04_jiazi_6_point_24" translatex="725.48" translatey="0.00278799" translatez="-19.6161" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+</mountPointsConfig>

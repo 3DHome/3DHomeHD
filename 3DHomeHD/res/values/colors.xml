@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+    <color name="appwidget_error_color">#FCCC</color>
+    
+    <color name="yellow">#FFFDBE00</color>
+    <color name="blue">#FF20203D</color>
+    <color name="white">#ffffff</color>
+    
+    <color name="help_blue">#007eff</color>
+    <color name="help_black">#333333</color>
+
+    <color name="item">#ED2676</color>
+    <color name="item_alt">#669D26ED</color>
+    <color name="background_color">#000000</color>
+</resources>
