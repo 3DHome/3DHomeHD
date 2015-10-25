@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:se="http://schemas.android.com/apk/res/com.borqs.freehdhome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_bg" >
+
+        <LinearLayout
+            android:id="@+id/pages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+        <com.borqs.se.download.SpecificProgressBar
+            android:id="@+id/download"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:progressDrawable="@drawable/preview_progress_download"
+            se:progressPrefix="@string/progress_prefix"
+            se:progressTextSize="18dp"
+            se:progressTextColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/download_or_apply"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/download_btn"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/cancel_or_delete"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download_btn"
+                android:text="@string/action_delete"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom" >
+
+        <ProgressBar
+            android:id="@+id/load_preview"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <com.borqs.se.download.GalleryFlow
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

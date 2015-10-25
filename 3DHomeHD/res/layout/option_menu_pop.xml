@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/OptionMenu"
+    android:id="@+id/option_menu_pop"
+    android:orientation="vertical" >
+
+    <TextView style="@style/OptionMenuItem"
+        android:id="@+id/menu00"/>
+    
+    <View android:layout_width="wrap_content"
+        android:layout_height="@dimen/option_menu_item_padding" />
+    
+    <TextView style="@style/OptionMenuItem"
+        android:id="@+id/menu01"/>
+    
+    <View android:layout_width="wrap_content"
+        android:layout_height="@dimen/option_menu_item_padding" />
+    
+    <TextView style="@style/OptionMenuItem"
+        android:id="@+id/menu02"/>
+    
+    <View android:layout_width="wrap_content"
+        android:layout_height="@dimen/option_menu_item_padding" />
+    
+    <TextView style="@style/OptionMenuItem"
+        android:id="@+id/menu03"/>
+    
+    <View android:layout_width="wrap_content"
+        android:layout_height="@dimen/option_menu_item_padding_bottom" />
+</LinearLayout>

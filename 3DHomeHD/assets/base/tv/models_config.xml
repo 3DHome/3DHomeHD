@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="group_tv" className="com.borqs.se.widget3d.Television"
+	sceneName="home8" type="tv" assetsPath="assets/base/tv" sceneFile="tv_scene.cbf"
+	basedataFile="tv_basedata.cbf" childNames="guang@group_tv"
+	keyWords="video,audio,music" slotType="wall" spanX="4" spanY="2"
+	previewTrans="0,10,50,0,0,0,1,0.2,0.2,0.2" localTrans="0,0,0,0,0,0,1,1.5,1.5,1.5">
+	<imageInfos themeName="default">
+		<imageInfo imageName="dianshi_01.jpg@tv_basedata.cbf"
+			imagePath="assets/base/tv/dianshi_01.jpg" />
+		<imageInfo imageName="xianguang.png@tv_basedata.cbf"
+			imagePath="assets/base/tv/xianguang.png" />
+		<imageInfo imageName="tvyinying.png@tv_basedata.cbf"
+			imagePath="assets/base/tv/tvyinying.png" />
+	</imageInfos>
+</config>

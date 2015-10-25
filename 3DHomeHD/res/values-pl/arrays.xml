@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string-array name="months">
+        <item>Sty</item>
+        <item>Lut</item>
+        <item>Mar</item>
+        <item>Kwi</item>
+        <item>Maj</item>
+        <item>Cze</item>
+        <item>Lip</item>
+        <item>Sie</item>
+        <item>Wrz</item>
+        <item>Paź</item>
+        <item>Lis</item>
+        <item>Gru</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Nie</item>
+        <item>Pon</item>
+        <item>Wto</item>
+        <item>Śro</item>
+        <item>Czw</item>
+        <item>Pią</item>
+        <item>Sob</item>
+    </string-array>
+    <string-array name="menus">
+        <item>Dodaj</item>
+        <item>Ustawiena 3D Home</item>
+        <item>Ustawienia systemu</item>
+        <item>Zarządzaj aplikacjami</item>
+    </string-array>
+
+    <string-array name="edit_wall_menu_item">
+        <item>Zdjęcie</item>
+        <item>Aparat</item>
+        <item>Przywróć domyślne</item>
+    </string-array>
+
+    <string-array name="appicon_style_entries">
+        <item>Brak</item>
+        <item>Czarny</item>
+        <item>Brązowy</item>
+        <item>Szary</item>
+    </string-array>
+    <string-array name="appicon_styly_values" translatable="false">
+        <item>brak</item>
+        <item>czarny</item>
+        <item>brązowy</item>
+        <item>szary</item>
+    </string-array>
+
+    <string-array name="long_click_wall">
+        <item>Ustawiena 3D Home</item>
+        <item>Dodaj obiekt 3D</item>
+        <item>Dodaj aplikację</item>
+        <item>Dodaj folder</item>
+        <item>Dodaj skrót</item>
+        <item>Dodaj widget</item>
+        <item>Zmień tapetę</item>
+    </string-array>
+
+    <string-array name="app_drawer_sort_type">
+        <item>Nazwa</item>
+        <item>Ostatnio zainstalowane</item>
+        <item>Najczęściej używane</item>
+    </string-array>
+
+    <string-array name="long_click_desk">
+        <item>Zmień stół</item>
+    </string-array>
+
+</resources>

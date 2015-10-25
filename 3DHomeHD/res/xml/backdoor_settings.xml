@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="parent"
+    android:title="@string/backdoor_menu_preference" >
+
+    <!-- DisplaySetting -->
+    <PreferenceCategory
+        android:key="DisplaySetting"
+        android:title="@string/backdoor_setting_display" >
+        <CheckBoxPreference
+            android:key="backdoor_enable"
+            android:persistent="false"
+            android:summaryOff="@string/backdoor_disable"
+            android:summaryOn="@string/backdoor_enable"
+            android:title="@string/backdoor_feature_title"
+            android:icon="@drawable/full_screen" />
+
+        <CheckBoxPreference
+            android:key="option_menu_alt"
+            android:persistent="false"
+            android:summaryOff="@string/disable"
+            android:summaryOn="@string/enable"
+            android:title="Alt option menu"
+            android:icon="@drawable/unlock"/>
+    </PreferenceCategory>
+
+    <!-- DisplaySetting -->
+    <PreferenceCategory
+            android:key="MarketServer"
+            android:title="@string/backdoor_setting_server" >
+    <CheckBoxPreference
+            android:key="http_test_server_enable"
+            android:persistent="false"
+            android:summaryOff="@string/disable"
+            android:summaryOn="@string/enable"
+            android:title="Request test server"
+            android:checked="false"
+            android:icon="@drawable/unlock"/>
+
+    <CheckBoxPreference
+            android:key="market_test_suggestion_enable"
+            android:persistent="false"
+            android:summaryOff="@string/disable"
+            android:summaryOn="@string/enable"
+            android:checked="false"
+            android:title="show suggestion ui"
+            android:icon="@drawable/unlock"/>
+
+        <CheckBoxPreference
+                android:key="market_test_beta_data_enable"
+                android:persistent="false"
+                android:summaryOff="@string/disable"
+                android:summaryOn="@string/enable"
+                android:checked="false"
+                android:title="show beta data"
+                android:icon="@drawable/unlock"/>
+    </PreferenceCategory>
+    <!-- DisplaySetting -->
+    <PreferenceCategory
+            android:key="LogingSettings"
+            android:title="@string/backdoor_setting_logs" >
+    <CheckBoxPreference
+            android:key="http_market_log_enable"
+            android:persistent="false"
+            android:summaryOff="@string/disable"
+            android:summaryOn="@string/enable"
+            android:title="Show market log info"
+            android:checked="false"
+            android:icon="@drawable/unlock"/>
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:key="publish_scene"
+        android:persistent="false"
+        android:title="Publish Wallpaper"
+        android:icon="@drawable/help" />
+    <PreferenceScreen
+        android:key="scene_editor"
+        android:persistent="false"
+        android:title="Scene"
+        android:icon="@drawable/about">
+    </PreferenceScreen>
+</PreferenceScreen>

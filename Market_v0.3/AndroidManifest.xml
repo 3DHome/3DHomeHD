@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.borqs.market"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS"/>  
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>  
+	
+	<permission android:name="borqs.market.permission.DOWNLOAD_COMPLETE"
+        android:label="borqs market download completed"
+        android:protectionLevel="normal"/>
+	
+	<!-- borqs Market permission -->
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <!-- google oauth -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    
+    <!-- IAP -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.READ_SMS" />
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:name=".MarketApplication">
+
+<!--         <provider android:name=".db.MarketProvider" android:authorities="com.borqs.market"/> -->
+        <!--<provider android:name=".db.DownLoadProvider" android:authorities="com.borqs.market"/>-->
+
+        <!-- borqs market -->
+        <activity
+            android:name="com.borqs.market.MarketHomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/themes_market"
+            android:theme="@style/Theme.wallpaper"
+            />
+        <activity
+            android:name="com.borqs.market.ProductListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.wallpaper">
+        </activity>
+        <activity
+            android:name="com.borqs.market.UserShareListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.wallpaper">
+        </activity>
+        <activity
+            android:name="com.borqs.market.PartitionsListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.wallpaper">
+        </activity>
+        <activity
+            android:name="com.borqs.market.wallpaper.WallpaperExportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/tab_tile_wallpaper"
+            android:theme="@style/Theme.wallpaper"
+            >
+        </activity>
+
+        <activity
+            android:name="com.borqs.market.WallPaperProductListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.wallpaper"
+            android:label="@string/wallpaper_launcher">
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.borqs.market.WallPaperLocalProductListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.wallpaper"
+            android:label="@string/wallpaper_launcher">
+        </activity>
+
+        <activity
+            android:name="com.borqs.market.ProductLocalDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.Sherlock.Custom"
+            />
+        <activity
+            android:name="com.borqs.market.ProductDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.Sherlock.Custom"
+            />
+        <activity
+            android:name="com.borqs.market.WallpaperProductDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.wallpaper"
+            />
+        <activity
+            android:name="com.borqs.market.CommentListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.wallpaper"
+            />
+        <activity
+            android:name="com.borqs.market.CreateCommentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.wallpaper"
+            />
+
+        <receiver android:name="com.borqs.market.service.DownloadReciver">
+            <intent-filter >
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

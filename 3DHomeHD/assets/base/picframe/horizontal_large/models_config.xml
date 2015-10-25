@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="group_largewallpicframe" type="VerticalWallFrame"
+	className="com.borqs.se.widget3d.VerticalWallFrame" sceneName="home8"
+	assetsPath="assets/base/picframe/horizontal_large" sceneFile="largewallpicframe_scene.cbf"
+	basedataFile="largewallpicframe_basedata.cbf"
+	childNames="Object82@group_largewallpicframe@largewallpicframe_basedata.cbf,
+		Box116@group_largewallpicframe@largewallpicframe_basedata.cbf,
+		yinying04@group_largewallpicframe@largewallpicframe_basedata.cbf,
+		Plane81@group_largewallpicframe@largewallpicframe_basedata.cbf,
+		Cylinder08@group_largewallpicframe@largewallpicframe_basedata.cbf"
+	slotType="wall" spanX="2" spanY="2" previewTrans="0,20,81,0,0,0,1,0.5,0.5,0.5"
+	localTrans="0,0,0,0,0,0,1,1.2,1.2,1.2">
+	<imageInfos themeName="default">
+		<imageInfo imageName="shengzi_03.png@largewallpicframe_basedata.cbf"
+			imagePath="assets/base/picframe/shengzi_03.png" />
+		<imageInfo imageName="xiangkuang.jpg@largewallpicframe_basedata.cbf"
+			imagePath="assets/base/picframe/xiangkuang.jpg" />
+		<imageInfo imageName="xp_2.jpg@largewallpicframe_basedata.cbf"
+			imagePath="assets/base/picframe/xp_2.jpg" />
+		<imageInfo imageName="tvyinying.png@largewallpicframe_basedata.cbf"
+			imagePath="assets/base/picframe/tvyinying.png" />
+	</imageInfos>
+</config>
+
+	

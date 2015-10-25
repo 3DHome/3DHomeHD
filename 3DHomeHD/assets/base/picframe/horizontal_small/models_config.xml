@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="group_hengwallpicframe" className="com.borqs.se.widget3d.HorizontalWallFrame"
+	sceneName="home8" type="HorizontalWallFrame" assetsPath="assets/base/picframe/horizontal_small"
+	sceneFile="hengwallpicframe_scene.cbf" basedataFile="hengwallpicframe_basedata.cbf"
+	childNames="Object84@group_hengwallpicframe@hengwallpicframe_basedata.cbf,
+		Box118@group_hengwallpicframe@hengwallpicframe_basedata.cbf,
+		yinying06@group_hengwallpicframe@hengwallpicframe_basedata.cbf,
+		Plane83@group_hengwallpicframe@hengwallpicframe_basedata.cbf,
+		Cylinder10@group_hengwallpicframe@hengwallpicframe_basedata.cbf"
+	slotType="wall" spanX="2" spanY="2" previewTrans="0,20,63,0,0,0,1,0.5,0.5,0.5"
+	localTrans="0,0,10,0,0,0,1,1.2,1.2,1.2">
+	<imageInfos themeName="default">
+		<imageInfo imageName="xiangkuang.jpg@hengwallpicframe_basedata.cbf"
+			imagePath="assets/base/picframe/xiangkuang.jpg" />
+		<imageInfo imageName="xp_6.jpg@hengwallpicframe_basedata.cbf"
+			imagePath="assets/base/picframe/xp_6.jpg" />
+		<imageInfo imageName="tvyinying.png@hengwallpicframe_basedata.cbf"
+			imagePath="assets/base/picframe/tvyinying.png" />
+		<imageInfo imageName="shengzi_03.png@hengwallpicframe_basedata.cbf"
+			imagePath="assets/base/picframe/shengzi_03.png" />
+	</imageInfos>
+</config>
+

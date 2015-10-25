@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">3DHome</string>
+    <string name="description">.Беспрецендентный, настоящий 3D домашний экран. Реальный мир в 3D!
+        В отличии, от дизайнов других домашних экранов - этот 3D лаунчер воспроизводит обстановку вашего дома 
+        и то как вы пользуетесь своим телефоном, телевизором, камерой, часами, календарём и т.д. в повседневной жизни!
+        Он дает вам свежий взгляд на управление вашим мобильным устройством.</string>
+
+    <!-- Home setting strings -->
+    <string name="menu_preference">Настройки 3D Home</string>
+    <string name="setting_display">Настройки отображения</string>
+    <string name="themes">Темы</string>
+    <string name="theme_summary">Скачать и установить тему</string>
+    <string name="objects">3D объекты</string>
+    <string name="object_summary">Скачать и управлять 3D объектами</string>
+    <string name="setting_style">Настройки стиля</string>
+    <string name="wall_objects_background_title">Фон ярлыков и виджетов</string>
+    <string name="choose_background_dialog_title">Выбрать фон</string>
+    <string name="full_screen">Полный экран</string>
+    <string name="confirm">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="full_screen_dialog_message">Переключить в полноэкранный режим?</string>
+    <string name="enable">Включить</string>
+    <string name="disable">Выключить</string>
+    <string name="unlock_screen_animation">Разблокировать экранную анимацию</string>
+    <string name="weather_settings">Настройки погоды</string>
+    <string name="weather_summary">Настройте ваше местоположение, единицы измерения и частоту обновления погоды</string>
+    <string name="update_settings">Версия прошивки</string>
+    <string name="upgrade_title">Проверить обновления</string>
+    <string name="share">Поделиться</string>
+    <string name="score">Оценить</string>
+    <string name="feedback">Отзыв</string>
+    <string name="help">Помощь</string>
+    <string name="about">О программе</string>
+
+    <!-- Customize house setting strings  -->
+    <string name="edit_wall_menu_title">Выберите обои</string>
+
+    <!-- Theme setting strings -->
+    <string name="theme_loading">Загрузка</string>
+    <string name="action_download">Скачать</string>
+    <string name="action_downloaded">Скачено</string>
+    <string name="action_waiting">Подождите</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_apply">Применить</string>
+    <string name="action_using">Используется</string>
+    <string name="no_local_theme">Нет локальных тем</string>
+    <string name="more_themes">Больше тем!</string>
+    <string name="online_theme">Онлайн темы</string>
+    <string name="preview">Предпросмотр</string>
+    <string name="progress_prefix">Скачивается&#8230;</string>
+    <string name="delete_theme_title">Удалить тему</string>
+    <string name="notify_user_apply">Переход на <xliff:g id="name">%s</xliff:g> тему выполнен.</string>
+    <string name="confirm_delete_selected_theme">Удалить <xliff:g id="name">%s</xliff:g>?</string>
+
+    <!-- 3D Objects setting strings -->
+    <string name="no_local_object">Нет локальных 3D объектов</string>
+    <string name="online_object">Онлайн 3D Объекты</string>
+    <string name="local_object">Локальные 3D Объекты</string>
+    <string name="delete_objects_title">Удалить 3D Объекты</string>
+    <string name="confirm_delete_selected_objects">Удалить <xliff:g id="name">%s</xliff:g>?</string>
+
+    <!-- Weather setting strings -->
+    <string name="auto_update_common">Общие настройки</string>
+    <string name="auto_location_title">Использовать моё местоположение</string>
+    <string name="auto_location_summary">Определить местоположение автоматически</string>
+    <string name="set_location_title">Установить местоположение</string>
+    <string name="set_location_msg">Введите название города: </string>
+    <string name="city_name_error">Название города не может быть пустым.</string>
+    <string name="dialog_choose_city">Выберите город</string>
+    <string name="weather_update_success">Местоположение и погода обновлены успешно.</string>
+    <string name="update_now_title">Обновить сейчас!</string>
+    <string name="update_now_summary">Убедитесь, что интернет-соединение исправно.</string>
+    <string name="switch_units_title">Использовать метрическую систему</string>
+    <string name="switch_units_summary">Переключатель метрической/имперской системы мер</string>
+    <string name="auto_update_setting">Настройки автообновления</string>
+    <string name="auto_update_title">Обновлять автоматически</string>
+    <string name="auto_update_summary">Автоматически получать информацию о погоде через интернет.</string>
+    <string name="start_time_title">Со скольки</string>
+    <string name="end_time_title">До скольки</string>
+    <string name="interval_time_title">Интервал обновления</string>
+    <string name="interval_time_summary">3 часа</string>
+    <string name="get_latest_weather_failed">Ошибка в получении последней информации о погоде.</string>
+    <string name="wait_dialog_title">Пожалуйста, подождите\u2026</string>
+    <string name="wait_dialog_msg_weather">Поиск\u2026</string>
+    <string name="req_error">Ошибка в получении прогноза погоды.</string>
+    <string name="locate_error">Ошибка в получении текущего местоположения.</string>
+
+    <!-- Check update strings -->
+    <string name="network_error">Пожалуйста, убедитесь, что ваш телефон подключен к интернету.</string>
+    <string name="no_update">Вы используете самую свежую версию.</string>
+    <string name="check_update_error">Ошибка обновления из-за проблемы с сетью или плохой связи с сервером,
+        пожалуйста, попробуйте позже.</string>
+    <string name="upgrade_dialog_title">Обновление прошивки</string>
+    <string name="wait_dialog_msg_sw">Проверка\u2026</string>
+    <string name="upgrade_dialog_msg">Доступна новая версия, скачать?</string>
+    <string name="upgrade_dialog_current_version">Текущая версия: </string>
+    <string name="upgrade_dialog_latest_version">Последняя версия:</string>
+    <string name="upgrade_dialog_file_size">Размер файла:</string>
+    <string name="upgrade_dialog_update_changes">Последние изменения:</string>
+    <string name="upgrade_dialog_ok">Скачать</string>
+    <string name="upgrade_dialog_cancel">Отмена</string>
+
+    <string name="share_content">Я установил 3D Home, очень советую попробовать) Ссылка на Google Play:\n %1$s=%2$s</string>
+
+
+    <!-- Help strings -->
+    <string name="help_menu_0">Помощник(Показать приложения)</string>
+    <string name="help_menu_1">Помощник(Добавить приложение)</string>
+    <string name="help_menu_3">Помощник(Удалить объект)</string>
+    <string name="help_0">Нажатие на ноутбук откроет список всех ваших приложений.</string>
+    <string name="help_1">Долгое нажатие на иконку приложения позволит вам поместить ярлык этого приложения на сцену.</string>
+    <string name="help_3">Удаляйте объекты со сцены, с помощью переноса их пальцем в появляющуюся корзину.</string>
+
+    <!-- About strings -->
+    <string name="about_version">Версия: %s</string>
+    <string name="about_copy_right1" translatable="false">Copyright © 2013 Borqs Ltd.  All rights reserved.</string>
+    <string name="about_website">Вебсайт компании: http://www.borqs.com/</string>
+
+    <!-- Weather strings -->
+    <string name="dialog_gls_msg">Это приложение будет работать лучше и интереснее, если вы разрешите ему использовать данные о вашем местоположении. Пожалуйста, включите "Моё местоположение" в настройках своего телефона.</string>
+    <string name="no_info_msg">Информация о погоде недоступна.</string>
+
+    <!-- Main menu strings -->
+    <string name="shortcut_title">Ярлыки</string>
+    <string name="app_title">Приложения</string>
+    <string name="click_menu_shortcut">Долгое нажатие для использования ярлыка</string>
+
+    <string name="gadget_error_text">Проблема с загрузкой виджета</string>
+    <string name="activity_not_found">Приложение не установлено.</string>
+    <string name="uninstall_system_app_text">Невозможно удалить системное приложение.</string>
+    <string name="delete_preset_object_text">Невозможно удалить предустановленные объекты .</string>
+
+    <!-- 3D Object strings -->
+    <string name="select_app">Выберите приложение</string>
+    
+    <!-- select shortcut dialog -->
+    <string name="title_select_shortcut">Выберите ярлык</string>
+
+    <!-- Room strings -->
+    <string name="no_room">Нет больше места на стене.</string>
+    <string name="no_room_desk">Нет больше места на столе.</string>
+
+    <!-- app drawer -->
+    <string name="title_select_drawer_sort">Выберите тип сортировки</string>
+
+    <string name="change_icon_dialog_title">Сменить иконку</string>
+    <string name="change_icon_dialog_select_img">Выберите изображение</string>
+    <string name="change_icon_dialog_reset_img">Сброс</string>
+    <string name="change_label_dialog_title">Переименовать</string>
+    
+    <!-- Folder strings -->
+    <string name="folder_title">Папка</string>
+
+    <!-- Application search -->
+    <string name="app_search_title">Поиск приложения</string>
+    <string name="app_search_hint">Поиск</string>
+
+    <!-- Long click object menu icon text -->
+    <string name="long_click_object_menu_delete">удалять</string>
+    <string name="long_click_object_menu_change_bind">Привязка</string>
+    <string name="long_click_object_menu_change_icon">значок</string>
+    <string name="long_click_object_menu_change_label">этикетка</string>
+    <string name="long_click_object_menu_uninstall">удалить</string>
+    <string name="long_click_object_menu_resize">Изменение размера</string>
+
+    <!-- Settings AD Content -->
+    <string name="ad_content_title">Пользовательский контент рекламы</string>
+    <string name="ad_content_dialog_title">Установить содержание рекламы</string>
+    <string name="ad_content_summary">Установить рекламный контент для дирижабля</string>
+    <string name="ad_default_blessings">Удачи!!!</string>
+
+    <string name="search_activity_title">Поиск Google</string>
+    <string name="search_activity_hint_text">Введите символы для поиска</string>
+    <string name="search_activity_button_text">Поиск</string>
+    
+    <string name="show_shelf">Показать шельфа</string>
+</resources>

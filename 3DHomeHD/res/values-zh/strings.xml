@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/Quake/res/strings.xml
+**
+** Copyright 2006, Google Inc.
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">3D主屏HD</string>
+    <string name="description">前所未有的真实3D主屏体验。真实的世界是立体的，不像任何其他主屏，3D主屏能带给您身临其境的真实体验。通过模拟您的日常生活来使用您的手机，电视，相机，时钟，日历等，3D主屏给您带来一种完全不一样的全新的手机和平板电脑操作体验。</string>
+
+    <!-- Home setting strings -->
+    <string name="menu_preference">三维主屏设置</string>
+    <string name="setting_display">显示设置</string>
+    <string name="themes">主题</string>
+    <string name="theme_summary">下载和应用主题</string>
+    <string name="wallpapers">墙纸</string>
+    <string name="wallpaper_summary">下载和应用墙纸</string>
+    <string name="setting_style">样式设置</string>
+    <string name="wall_objects_background_title">应用和窗口小部件背景</string>
+    <string name="wall_objects_background_summary">设置应用和窗口小部件背景</string>
+    <string name="choose_background_dialog_title">选择背景</string>
+    <string name="full_screen">全屏显示</string>
+    <string name="enable">启用</string>
+    <string name="disable">禁用</string>
+    <string name="unlock_screen_animation">解锁动画</string>
+    <string name="weather_settings">天气设置</string>
+    <string name="weather_summary">设置位置，温度单位</string>
+    <string name="update_settings">更新设置</string>
+    <string name="upgrade_title">检查更新</string>
+    <string name="share">分享</string>
+    <string name="score">评分</string>
+    <string name="feedback">意见反馈</string>
+    <string name="help">帮助</string>
+    <string name="about">关于</string>
+
+    <!-- Customize house setting strings  -->
+    <string name="edit_wall_menu_title">选择墙纸</string>
+
+    <!-- Theme setting strings -->
+    <string name="theme_loading">加载</string>
+    <string name="action_download">下载</string>
+    <string name="action_downloaded">已下载</string>
+    <string name="action_waiting">等待</string>
+    <string name="action_delete">删除</string>
+    <string name="action_apply">使用</string>
+    <string name="action_using">使用中</string>
+    <string name="no_local_theme">本地没有主题</string>
+    <string name="more_themes">更多主题</string>
+    <string name="online_theme">在线主题</string>
+    <string name="preview">查看</string>
+    <string name="progress_prefix">下载中&#8230;</string>
+    <string name="delete_theme_title">删除主题</string>
+    <string name="notify_user_apply">切换<xliff:g id="name">%s</xliff:g>主题成功。</string>
+    <string name="confirm_delete_selected_theme">确定删除<xliff:g id="name">%s</xliff:g>吗?</string>
+
+    <!-- 3D Objects setting strings -->
+    <string name="no_local_object">本地没有物体</string>
+    <string name="online_object">在线三维物体</string>
+    <string name="local_object">本地三维物体</string>
+    <string name="delete_objects_title">删除三维物体</string>
+    <string name="confirm_delete_selected_objects">确定删除<xliff:g id="name">%s</xliff:g>吗?</string>
+
+    <!-- Weather setting strings -->
+    <string name="auto_update_common">基本设置</string>
+    <string name="auto_location_title">使用“我的位置”</string>
+    <string name="auto_location_summary">自动确定位置</string>
+    <string name="set_location_title">设置位置</string>
+    <string name="set_location_msg">输入城市名称全拼： </string>
+    <string name="city_name_error">城市名称不能为空。</string>
+    <string name="dialog_choose_city">选择城市</string>
+    <string name="weather_update_success">已更新天气位置。</string>
+    <string name="update_now_title">立即更新</string>
+    <string name="update_now_summary">确保手机已经连接到网络</string>
+    <string name="switch_units_title">使用公制单位</string>
+    <string name="switch_units_summary">切换公制单位/英制单位</string>
+    <string name="auto_update_setting">自动更新设置</string>
+    <string name="auto_update_title">开启自动更新</string>
+    <string name="auto_update_summary">通过网络自动获取天气信息</string>
+    <string name="start_time_title">更新开始时间</string>
+    <string name="end_time_title">更新结束时间</string>
+    <string name="interval_time_title">更新间隔时间</string>
+    <string name="interval_time_summary">3 小时</string>
+    <string name="get_latest_weather_failed">未能获取到最新的天气信息。</string>
+    <string name="wait_dialog_title">请稍候\u2026</string>
+    <string name="wait_dialog_msg_weather">正在搜索\u2026</string>
+    <string name="req_error">天气信息获取失败。</string>
+    <string name="locate_error">未能获取当前位置。</string>
+
+    <!-- Check update strings -->
+    <string name="network_error">手机没有连接到网络。</string>
+    <string name="no_update">当前已是最新版本。</string>
+    <string name="check_update_error">由于网络或服务器的问题，检查和升级软件版本失败，请稍后重试。</string>
+    <string name="upgrade_dialog_title">应用更新</string>
+    <string name="wait_dialog_msg_sw">正在检查\u2026</string>
+    <string name="upgrade_dialog_msg">检测到新版本。\r\n若使用移动网络下载更新会产生流量费用，是否下载？</string>
+    <string name="upgrade_dialog_current_version">当前版本：</string>
+    <string name="upgrade_dialog_latest_version">最新版本：</string>
+    <string name="upgrade_dialog_file_size">文件大小：</string>
+    <string name="upgrade_dialog_update_changes">更新说明：</string>
+    <string name="upgrade_dialog_ok">下载</string>
+    <string name="upgrade_dialog_cancel">放弃</string>
+
+    <string name="share_content">我安装了3D Home，推荐你也试试～，下载地址: \n%1$s=%2$s</string>
+
+    <!-- Help strings -->
+    <string name="help_menu_0">浏览应用程序</string>
+    <string name="help_menu_1">添加应用程序</string>
+    <string name="help_menu_2">应用墙</string>
+    <string name="help_menu_3">删除物体</string>
+    <string name="help_menu_4">浏览物体</string>
+    <string name="help_menu_5">下载物体</string>
+    <string name="help_menu_6">天气</string>
+    <string name="help_0">点击桌面上的笔记本浏览所有已安装的应用程序。</string>
+    <string name="help_1">长按应用程序添加至墙面。</string>
+    <string name="help_2">长按应用程序可添加至场景中的应用墙。</string>
+    <string name="help_3">抛掷/移动物体至垃圾桶可删除房间中的物体。</string>
+    <string name="help_4">点击菜单“三维物体“展示所有可添加至房间的物体。</string>
+    <string name="help_5">点击“Shop”下载新的物体。</string>
+    <string name="help_6">点击天空显示当天的天气情况。</string>
+
+    <!-- About strings -->
+    <string name="about_version">版本： %s</string>
+    <string name="about_website">官方网站：http://www.borqs.com/</string>
+
+    <!-- Weather strings -->
+    <string name="dialog_gls_msg">此应用程序将使用您的当前位置，请在系统设置中启用“我的位置”源。</string>
+    <string name="no_info_msg">没有天气信息</string>
+
+    <!-- Main menu strings -->
+    <string name="shortcut_title">快捷方式</string>
+    <string name="app_title">应用</string>
+    <string name="click_menu_shortcut">长按可选取一个快捷方式</string>
+
+    <string name="gadget_error_text">加载小部件出现问题</string>
+    <string name="activity_not_found">"未安装该应用程序。"</string>
+    <string name="uninstall_system_app_text">"这是系统应用程序，无法卸载。"</string>
+    <string name="delete_preset_object_text">这是预置的物体，无法删除。</string>
+
+    <!-- 3D Object strings -->
+    <string name="select_app">选择绑定的应用程序</string>
+
+    <!-- Room strings -->
+    <string name="no_room">此场景的墙上已没有空间。</string>
+    <string name="no_room_desk">此场景的桌面上已没有空间。</string>
+
+    <!-- Orientation settings -->
+    <string name="orientation_preferred_summary">设置屏幕方向</string>
+    <string name="orientation_preferred_dialog_title">设置屏幕方向</string>
+    <string name="orientation_preferred_title">设置屏幕方向</string>
+    
+    <string name="wall_option_add_object">添加三维物体</string>
+    <string name="wall_option_add_app">添加应用</string>
+    <string name="wall_option_add_shortcut">添加快捷方式</string>
+    <string name="wall_option_add_wdiget">添加桌面小部件</string>
+    <string name="wall_option_change_wallpaper">切换壁纸</string>
+    
+    <string name="search_activity_title">谷歌搜索</string>
+    <string name="search_activity_hint_text">输入您的搜索关键词</string>
+    <string name="search_activity_button_text">搜索</string>
+
+    <!-- Long click object menu icon text -->
+    <string name="long_click_object_menu_delete">删除</string>
+    <string name="long_click_object_menu_change_bind">绑定</string>
+    <string name="long_click_object_menu_change_icon">图标</string>
+    <string name="long_click_object_menu_change_label">重命名</string>
+    <string name="long_click_object_menu_uninstall">卸载</string>
+    <string name="long_click_object_menu_resize">更改大小</string>
+ 
+    <!-- Settings AD Content -->
+    <string name="ad_content_title">自定义广告内容</string>
+    <string name="ad_content_dialog_title">设置广告内容</string>
+    <string name="ad_content_summary">设置飞艇广告内容</string>
+    <string name="ad_default_blessings">祝你好运！！！</string>
+    
+    <string name="show_shelf">显示架子</string>
+
+    <string name="user_share_description">秀我的壁纸包给小伙伴们</string>
+
+    <string name="ad_removal_title">去广告购买</string>
+    <string name="ad_removal_description">去除天空飞行器附带的广告(要完成此应用内商品的购买, 你的设备需要支持应用内购买功能)</string>
+    <string name="ad_dismiss_title">去掉广告同时禁用飞机</string>
+    <string name="ad_dismiss_on">从天空去掉飞机及其携带的广告旗帜</string>
+    <string name="ad_dismiss_off">去除广告内容，保留飞机，可在旗帜上自定义文字</string>
+</resources>

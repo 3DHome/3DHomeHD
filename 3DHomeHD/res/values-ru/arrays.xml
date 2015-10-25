@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theme_entries_8">
+        <item>деревянный</item>
+        <item>темный</item>
+    </string-array>
+    <string-array name="months">
+        <item>январь</item>
+        <item>февраль</item>
+        <item>март</item>
+        <item>апрель</item>
+        <item>может</item>
+        <item>июнь</item>
+        <item>июль</item>
+        <item>август</item>
+        <item>сентябрь</item>
+        <item>октябрь</item>
+        <item>ноябрь</item>
+        <item>декабрь</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>солнце</item>
+        <item>понедельник</item>
+        <item>вторник</item>
+        <item>женить</item>
+        <item>четверг</item>
+        <item>пятница</item>
+        <item>суббота</item>
+    </string-array>
+    <string-array name="menus">
+        <item>добавлять</item>
+        <item>Переключение обоев</item>
+        <item>Страница Настройки</item>
+        <item>Системные настройки</item>
+        <!-- <item>Управление приложениями</item> -->
+    </string-array>
+    <string-array name="interval_time_entries">
+        <item>Полчаса</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>4 часа</item>
+        <item>5 часов</item>
+    </string-array>
+    <string-array name="appicon_style_entries">
+        <item>Ни один</item>
+        <item>черный</item>
+        <item>коричневый</item>
+        <item>серый</item>
+    </string-array>
+    <string-array name="edit_wall_menu_item">
+        <item>картина</item>
+        <item>камера</item>
+        <item>Вернуть по умолчанию</item>
+    </string-array>
+
+    <string-array name="long_click_wall">
+        <item>Добавить 3D-объект</item>
+        <item>Добавить приложение</item>
+        <item>Добавить ярлык</item>
+        <item>Добавить виджет</item>
+        <item>менять обои</item>
+        <item>Wallpaper suite</item>
+    </string-array>
+
+    <string-array name="app_drawer_sort_type">
+        <item>название</item>
+        <item>Установить последнее</item>
+        <item>Часто используемые</item>
+    </string-array>
+
+</resources>

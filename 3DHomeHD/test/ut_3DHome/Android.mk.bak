@@ -1,0 +1,19 @@
+ifneq ($(BINARY_COMBINE), true)
+
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_MODULE_TAGS := tests eng
+
+LOCAL_JAVA_LIBRARIES := android.test.runner
+
+LOCAL_SRC_FILES := $(call all-java-files-under,src)
+
+LOCAL_PACKAGE_NAME := ut_3dhome
+
+LOCAL_INSTRUMENTATION_FOR := 3DHome
+
+LOCAL_CERTIFICATE := platform
+
+include $(BUILD_PACKAGE)
+endif

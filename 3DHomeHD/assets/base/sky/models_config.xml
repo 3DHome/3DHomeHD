@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="group_sky" type="Sky" className="com.borqs.se.widget3d.Cloud"
+	sceneName="home8" assetsPath="assets/base/sky" sceneFile="sky_scene.cbf"
+	basedataFile="sky_basedata.cbf">
+	<imageInfos themeName="default">
+		<imageInfo imageName="qingtianbogyun.jpg@sky_basedata.cbf"
+			imagePath="assets/base/sky/qingtianbogyun.jpg" />
+	</imageInfos>
+</config>
+

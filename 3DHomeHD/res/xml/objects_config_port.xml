@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     	<config name="group_desk" sceneName="home8" vesselName="home_root"
+        isNativeObj="1" objectIndex="0" />
+
+       <config name="desk_fang" sceneName="home8" vesselName="home_root"
+        isNativeObj="1" objectIndex="0" />
+         <config name="yuanzhuo" sceneName="home8" vesselName="home_root"
+        isNativeObj="1" objectIndex="0" />
+     -->
+<configs>
+	<!--###################8 faces wall################################# -->
+	<config name="home_root" sceneName="home8"
+		className="com.borqs.se.widget3d.NodeRoot" type="RootNode"
+		objectIndex="0" />
+
+    <config name="desk_fang_port" sceneName="home8" vesselName="home_root"
+        isNativeObj="1" objectIndex="0" />
+
+	<config name="home8mianshu" sceneName="home8" vesselName="home_root"
+		isNativeObj="1" objectIndex="0" />
+
+	<!-- objects on desktop -->
+	<!--<config name="group_pc" sceneName="home8" vesselName="desk_fang"-->
+		<!--slotType="desktop" slotIndex="2" isNativeObj="1" objectIndex="0" />-->
+
+    <config name="nexus10" sceneName="home8" vesselName="desk_fang_port"
+            slotType="desktop" slotIndex="2" isNativeObj="1" objectIndex="0" />
+
+	<config name="group_sms" sceneName="home8" vesselName="desk_fang_port"
+		slotType="desktop" slotIndex="3" isNativeObj="1" objectIndex="1"  />
+
+	<config name="group_gplay" sceneName="home8" vesselName="desk_fang_port"
+		slotType="desktop" slotIndex="4" isNativeObj="1" objectIndex="1" />
+
+	<config name="nexus4" sceneName="home8" vesselName="desk_fang_port"
+		slotType="desktop" slotIndex="0" isNativeObj="1" objectIndex="1" />
+	
+	<config name="group_camera" sceneName="home8" vesselName="desk_fang_port"
+		slotType="desktop" slotIndex="1" isNativeObj="1" objectIndex="1"
+		componentName = "com.android.camera/.Camera" />
+
+	<!-- sky -->
+	<config name="group_sky" sceneName="home8" vesselName="home_root"
+		isNativeObj="1" objectIndex="0" />
+
+		<!-- Wall -->
+	<config name="group_clock" sceneName="home8" vesselName="home8mianshu"
+		slotType="wall" slot="0,1,0,2,2" isNativeObj="1" objectIndex="1" 
+		slotIndex="0"
+		slotStartX="1"
+		slotStartY="0"
+		slotSpanX="2"
+		slotSpanY="2"/>
+	
+	<config name="jiaziport" sceneName="home8" vesselName="home8mianshu"
+		slotType="wall" slot="0,5,2,1,2" isNativeObj="1" objectIndex="1" mountPointIndex="4"
+		slotIndex="0"
+		slotStartX="0"
+		slotStartY="2"
+		slotSpanX="4"
+		slotSpanY="2"/>
+	
+    <config name="App" sceneName="home8" vesselName="home8mianshu"
+            slotType="wall" slotIndex="0" mountPointIndex="8" isNativeObj="0" objectIndex="0" vesselIndex="0"
+            slotStartX="0"
+            slotStartY="0"
+            slotSpanX="1"
+            slotSpanY="1"
+            componentName = "com.google.android.apps.maps/com.google.android.maps.MapsActivity" />
+    
+    <config name="App" sceneName="home8" vesselName="home8mianshu"
+            slotType="appWall" slotIndex="0" mountPointIndex="9" isNativeObj="0" objectIndex="2" vesselIndex="0"
+            slotStartX="0"
+            slotStartY="0"
+            slotSpanX="1"
+            slotSpanY="1"
+            componentName = "com.android.gallery3d/.app.Gallery" />
+    
+   <config name="App" sceneName="home8" vesselName="home8mianshu"
+            slotType="appWall" slotIndex="0" mountPointIndex="10" isNativeObj="0" objectIndex="3" vesselIndex="0"
+            slotStartX="0"
+            slotStartY="0"
+            slotSpanX="1"
+            slotSpanY="1"
+            componentName = "com.google.android.youtube/.app.honeycomb.Shell$HomeActivity" />
+    
+     <config name="App" sceneName="home8" vesselName="home8mianshu"
+            slotType="appWall" slotIndex="0" mountPointIndex="11" isNativeObj="0" objectIndex="4" vesselIndex="0"
+            slotStartX="0"
+            slotStartY="0"
+            slotSpanX="1"
+            slotSpanY="1"
+            componentName = "com.android.browser/BrowserActivity" />
+</configs>

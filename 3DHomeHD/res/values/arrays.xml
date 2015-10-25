@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theme_entries_8">
+        <item>Wooden</item>
+        <item>White</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="menus">
+        <item>3D objects</item>
+        <item>Change wallpaper</item>
+        <item>Home settings</item>
+        <item>System settings</item>
+        <!-- <item>Manage applications</item> -->
+    </string-array>
+    <string-array name="interval_time_entries">
+        <item>Half an hour</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+        <item>5 hours</item>
+    </string-array>
+
+    <!-- below strings have not been translated to other languages -->
+    <string-array name="edit_wall_menu_item">
+        <item>Picture</item>
+        <item>Camera</item>
+        <item>Revert to default</item>
+    </string-array>
+
+    <!-- don't need translate below strings -->
+    <string-array name="theme_values_8" translatable="false">
+        <item>default</item>
+        <item>white</item>
+        <item>dark</item>
+    </string-array>
+    <string-array name="interval_time_values" translatable="false">
+        <item>1800000</item> <!-- 1800000 -->
+        <item>3600000</item> <!-- 3600000 -->
+        <item>7200000</item> <!-- 7200000 -->
+        <item>10800000</item> <!-- 10800000 -->
+        <item>14400000</item> <!-- 14400000 -->
+        <item>18000000</item> <!-- 18000000 -->
+    </string-array>
+    <string-array name="appicon_style_entries">
+        <item>None</item>
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Gray</item>
+    </string-array>
+    <string-array name="appicon_styly_values">
+        <item>none</item>
+        <item>black</item>
+        <item>brown</item>
+        <item>gray</item>
+    </string-array>
+
+    <string-array name="long_click_wall">
+        <item>Add 3D object</item>
+        <item>Add application</item>
+        <item>Add shortcut</item>
+        <item>Add widget</item>
+        <item>Change wallpaper</item>
+        <item>Wallpaper suite</item>
+    </string-array>
+
+    <string-array name="orientation_preferred_entries">
+        <!-- <item>Auto rotation</item> -->
+        <item>Landscape</item>
+        <item>Portrait</item>
+    </string-array>
+    
+    <string-array name="orientation_preferred_values">
+        <!-- <item>rotation</item> -->
+        <item>landscape</item>
+        <item>portrait</item>
+    </string-array>
+
+</resources>

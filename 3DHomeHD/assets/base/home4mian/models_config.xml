@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="home4mian" className="com.borqs.se.widget3d.House" sceneName="home8" type="house" assetsPath="assets/base/home4mian" sceneFile="home4mian_scene.cbf" basedataFile="home4mian_basedata.cbf" childNames="wuding01@home4mian,wuding02@home4mian,tijiaoxian01@home4mian,wall01@home4mian,home_ground01@home4mian,wall03@home4mian,light01@home4mian,wall02@home4mian,wall04@home4mian,dengguangpian02@home4mian,dengguangpian01@home4mian" keyWords="home4mian" slotType="" spanX="2" spanY="2" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" minPoint="-1126.55,-1126.1,0" maxPoint="1129.33,1129.79,1460.11">
+    <imageInfos themeName="default">
+        <imageInfo imageName="hd_home_4mian_ding_zch.jpg@home4mian_basedata.cbf" imagePath="assets/base/home4mian/hd_home_4mian_ding_zch.jpg" />
+        <imageInfo imageName="home_boli_zch.png@home4mian_basedata.cbf" imagePath="assets/base/home4mian/home_boli_zch.png" />
+        <imageInfo imageName="hd_bianjiaoxian_zch.jpg@home4mian_basedata.cbf" imagePath="assets/base/home4mian/hd_bianjiaoxian_zch.jpg" />
+        <imageInfo imageName="hd_home_4mianqiang01_zch.jpg@home4mian_basedata.cbf" imagePath="assets/base/home4mian/hd_home_4mianqiang01_zch.jpg" />
+        <imageInfo imageName="hd_diban_zch.jpg@home4mian_basedata.cbf" imagePath="assets/base/home4mian/hd_diban_zch.jpg" />
+        <imageInfo imageName="hd_home_4mianqiang01_zch.jpg@home4mian_basedata.cbf_0" imagePath="assets/base/home4mian/hd_home_4mianqiang01_zch.jpg" />
+        <imageInfo imageName="hd_wudingdeng01_fhq.png@home4mian_basedata.cbf" imagePath="assets/base/home4mian/hd_wudingdeng01_fhq.png" />
+        <imageInfo imageName="hd_home_4mianqiang_zch.jpg@home4mian_basedata.cbf" imagePath="assets/base/home4mian/hd_home_4mianqiang_zch.jpg" />
+        <imageInfo imageName="hd_home_4mianqiang_zch.jpg@home4mian_basedata.cbf_0" imagePath="assets/base/home4mian/hd_home_4mianqiang_zch.jpg" />
+        <imageInfo imageName="hd_wudingdeng01_fhq.png@home4mian_basedata.cbf_0" imagePath="assets/base/home4mian/hd_wudingdeng01_fhq.png" />
+        <imageInfo imageName="hd_wudingdeng01_fhq.png@home4mian_basedata.cbf_1" imagePath="assets/base/home4mian/hd_wudingdeng01_fhq.png" />
+    </imageInfos>
+    <childrenAttribute>
+        <child>
+            <geometry spatialName="wuding01@home4mian" />
+            <lights />
+            <geostatus statusValue="2113536" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="wuding02@home4mian" />
+            <lights />
+            <geostatus statusValue="1064965" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="tijiaoxian01@home4mian" />
+            <lights />
+            <geostatus statusValue="2113536" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="wall01@home4mian" />
+            <lights />
+            <geostatus statusValue="2113536" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="home_ground01@home4mian" />
+            <lights />
+            <geostatus statusValue="2113536" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="wall03@home4mian" />
+            <lights />
+            <geostatus statusValue="2113536" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="light01@home4mian" />
+            <lights />
+            <geostatus statusValue="2113536" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="wall02@home4mian" />
+            <lights />
+            <geostatus statusValue="2113536" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="wall04@home4mian" />
+            <lights />
+            <geostatus statusValue="2113536" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="dengguangpian02@home4mian" />
+            <lights />
+            <geostatus statusValue="2113541" spatialDataValue="7" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="dengguangpian01@home4mian" />
+            <lights />
+            <geostatus statusValue="2113536" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+    </childrenAttribute>
+</config>

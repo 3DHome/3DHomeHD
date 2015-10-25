@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="IconBackground" className="com.borqs.se.widget3d.NormalObject" sceneName="home8" type="IconBackground" assetsPath="assets/base/appwall/background" sceneFile="appwall1_scene.cbf" basedataFile="appwall1_basedata.cbf" slotType="wall" spanX="1" spanY="1" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0">
+    <imageInfos themeName="default">
+        <imageInfo imageName="home_appwall05_zch.png@appwall1_basedata.cbf" imagePath="assets/base/appwall/home_appwall06_zch.png" />
+    </imageInfos>
+</config>

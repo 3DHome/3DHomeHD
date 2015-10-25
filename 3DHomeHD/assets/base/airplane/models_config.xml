@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="group_airplane" className="com.borqs.se.widget3d.Airplane"
+	sceneName="home8" type="Airship" assetsPath="assets/base/airplane"
+	sceneFile="airplane_scene.cbf" basedataFile="airplane_basedata.cbf"
+	rootName="home_root" 
+	childNames="ggq_01@group_airplane@airplane_basedata.cbf,
+	airplane_lxj@group_airplane@airplane_basedata.cbf,
+	airplane@group_airplane@airplane_basedata.cbf"
+	localTrans="0,0,0,30,1,0,0,2,2,2">
+	<imageInfos themeName="default">
+		<imageInfo imageName="ad_plane_fhq.jpg@airplane_basedata.cbf"
+			imagePath="assets/base/airplane/ad_plane_fhq.jpg" />
+		<imageInfo imageName="ad_plane_fhq.jpg@airplane_basedata.cbf_0"
+			imagePath="assets/base/airplane/ad_plane_fhq.jpg" />
+		<imageInfo imageName="ggq_01.jpg@airplane_basedata.cbf"
+			imagePath="assets/base/airplane/ggq_01.jpg" />
+		<imageInfo imageName="shengzi_03.png@airplane_basedata.cbf"
+			imagePath="assets/base/airplane/shengzi_03.png" />
+	</imageInfos>
+</config>
+

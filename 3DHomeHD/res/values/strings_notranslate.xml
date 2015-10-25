@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="iab_google_public">"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtTFy5wJZTTvTRE0t+TaCIkaaZhE7YDU0mQrl2j5Gkeh9msAUcFkIWkbqciJPJVeYu2kJjcTgAy2p8vLicyLOOfTISJ3wvAeJPqZseQ0dpu86xJFS1Np9R8/IOOYDTvBZ/JP/CTqp6aw2VGLZPpgLfDR2JUXg3g9qVNxpMHmX+muL7DodD8qRBc8NUTYJIgavXQ1LQNcVRwqTzM+jjHUYnPnQVhYjUwN3K7o5KNrm8YSpiw7nCECtybmwE5UnfKWf9pXlxkZowL6HYmMMTUt/+a+jgE8uFGyUQpwBIDP1KHW3RQYgvZ8uXrZq/jxm70DwXiXFcD2jZprstETBoccxzQIDAQAB"</string>
+    <string name="share_content_link_google" translate="false">https://play.google.com/store/apps/details?id</string>
+    <string name="share_content_link_amazon" translate="false">https://www.amazon.com/gp/mas/dl/android?p</string>
+
+    <string name="key_channel">UMENG_CHANNEL</string>
+    <string name="channel_default">google</string>
+    <string name="channel_amazon">amazon</string>
+</resources>

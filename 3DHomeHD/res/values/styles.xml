@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme" parent="android:Theme"></style>
+
+    <style name="Theme.Black" parent="android:Theme.Black.NoTitleBar">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <!--
+         A theme that has a translucent background.  Here we explicitly specify
+         that this theme is to inherit from the system's translucent theme,
+         which sets up various attributes correctly.
+    -->
+    <style name="Theme.Translucent" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/translucent_background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Transparent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowBackground">@drawable/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+    </style>
+
+    <style name="ListItemOne" parent="android:style/TextAppearance">
+        <item name="android:textColorLink">?android:textColorLink</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="DefaultActionBarTabStyle" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/action_bar_tab</item>
+    </style>
+
+    <style name="DefaultActionBarTabTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="DefaultActionBarWidgetStyle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>
+    </style>
+
+    <style name="ListViewDropdownStyle" parent="@android:style/Widget.ListView.DropDown">
+        <item name="android:listSelector">?android:attr/listChoiceBackgroundIndicator</item>
+    </style>
+
+    <style name="HomeThemeWithActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/HomeActionBarStyle</item>
+        <item name="android:actionBarWidgetTheme">@style/DefaultActionBarWidgetStyle</item>
+        <item name="android:actionBarTabStyle">@style/DefaultActionBarTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/DefaultActionBarTabTextStyle</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom</item>
+    </style>
+
+    <style name="HomeActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <!--<item name="android:background">@drawable/ab_solid_dark_holo</item>-->
+        <!--<item name="android:backgroundStacked">@drawable/ab_solid_dark_holo</item>-->
+        <item name="android:backgroundSplit">@drawable/application_bottom_panel</item>
+        <item name="android:displayOptions"></item>
+    </style>
+    
+        <style name="dialog" >  
+          <item name="android:windowFrame">@null</item>  
+          <item name="android:windowIsFloating">true</item>  
+          <item name="android:windowIsTranslucent">false</item>  
+          <item name="android:windowNoTitle">true</item>  
+          <item name="android:windowBackground">@drawable/transparent_background</item>  
+          <item name="android:backgroundDimEnabled">false</item>
+          <item name="android:windowAnimationStyle">@style/AnimationsSliding</item>  
+　　</style>
+
+    <style name="AnimationsSliding">
+        <item name="@android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="@android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    
+    <style name="wall_option_item_style">
+        <item name="android:layout_width">@dimen/wall_option_item_width</item>
+        <item name="android:layout_height">@dimen/wall_option_item_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/wall_option_item_font_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="textViewCustomStyle" parent="android:Widget.TextView">
+        <item name="android:visibility">invisible</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxHeight">300dp</item>
+        <item name="android:maxWidth">200dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">200dp</item>
+    </style>
+
+    <style name="textViewOptionItemStyle" parent="android:Widget.TextView">
+        <item name="android:visibility">invisible</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxHeight">160dp</item>
+        <item name="android:maxWidth">90dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">90dp</item>
+    </style>
+
+    <style name="root_style">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <!--<item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>-->
+    </style>
+
+
+    <style name="Widget">
+    </style>
+
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="HomeDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <style name="HomeDialogDimUnableStyle" parent="@style/HomeDialogStyle">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+     <style name="object_dialog_button_style">
+        <item name="android:textSize">10sp</item>
+    </style>
+    
+     <style name="OptionMenuWindow">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    
+     <style name="OptionMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/option_menu_padding</item>
+        <item name="android:paddingRight">@dimen/option_menu_padding</item>
+        <item name="android:background">@drawable/menu_background</item>
+    </style>
+    
+     <style name="OptionMenuItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/option_menu_item_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/option_menu_text_size</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:background">@drawable/menu_item_bg</item>
+    </style>
+    
+     <style name="option_menu_anim_style">
+     <item name="android:windowEnterAnimation">@anim/menushow</item>
+     <item name="android:windowExitAnimation">@anim/menuhide</item>
+    </style>
+</resources>

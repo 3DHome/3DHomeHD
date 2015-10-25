@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:descendantFocusability="blocksDescendants" >
+
+    <FrameLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/download_grid_cell_preview_height" >
+
+        <ImageView
+            android:id="@+id/resource_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:scaleType="centerCrop" />
+        
+        <ImageView
+            android:id="@+id/resource_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/theme_selected"
+            android:focusable="false"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/download_grid_adapter_download_progress_height"
+        android:layout_below="@id/top"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/resource_download_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ProgressBar
+                android:id="@+id/download_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="4"
+                android:progressDrawable="@drawable/progress_download" />
+
+            <TextView
+                android:id="@+id/download_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/resource_action"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+</RelativeLayout>

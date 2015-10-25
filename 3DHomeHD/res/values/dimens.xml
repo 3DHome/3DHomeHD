@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="workspace_cell_width">80dp</dimen>
+    <dimen name="workspace_cell_height">100dp</dimen>
+    <dimen name="helper_title_font">32px</dimen>
+    <dimen name="helper_content_font">24px</dimen>
+    <dimen name="app_menu_title_font">20px</dimen>
+    <dimen name="app_menu_icon_font">14px</dimen>
+    <dimen name="app_menu_body_font">20px</dimen>
+    
+    <!-- AllApps/Customize/AppsCustomize -->
+    <dimen name="app_icon_size">48dp</dimen>
+
+    <dimen name="app_customize_icon_size">48dp</dimen>
+    <dimen name="app_customize_icon_PaddingTop">6dp</dimen>
+    <dimen name="app_customize_icon_Padding">2dp</dimen>
+    <dimen name="app_customize_icon_text_size">14dp</dimen>
+    <!-- The width can be 72dp because we don't have L/R padding -->
+    <dimen name="apps_customize_cell_width">74dp</dimen>
+    <dimen name="apps_customize_cell_height">94dp</dimen>
+
+    <!-- AppsCustomize -->
+    <dimen name="apps_customize_pageLayoutWidthGap">4dp</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">8dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">10dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingBottom">10dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingLeft">5dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingRight">5dp</dimen>
+    <dimen name="apps_customize_dock_size">0dp</dimen>
+
+    <dimen name="download_grid_top_padding">5dp</dimen>
+    <dimen name="download_grid_bottom_padding">5dp</dimen>
+    <dimen name="download_grid_left_padding">5dp</dimen>
+    <dimen name="download_grid_right_padding">5dp</dimen>
+    <dimen name="download_grid_horizontal_spacing">5dp</dimen>
+    <dimen name="download_grid_vertical_spacing">5dp</dimen>
+    <dimen name="download_grid_cell_preview_height">180dp</dimen>
+    <dimen name="download_grid_adapter_download_progress_height">40dp</dimen>
+    
+    <!-- Default padding to apply to AppWidgetHostViews containing widgets targeting API level 14 and up. -->
+    <dimen name="default_app_widget_padding_left">8dp</dimen>
+    <dimen name="default_app_widget_padding_top">8dp</dimen>
+    <dimen name="default_app_widget_padding_right">8dp</dimen>
+    <dimen name="default_app_widget_padding_bottom">8dp</dimen>
+    
+    <dimen name="wall_option_item_width">180dp</dimen>
+    <dimen name="wall_option_item_height">62dp</dimen>
+    <dimen name="wall_option_item_font_size">18dip</dimen>
+
+    <dimen name="wall_app_icon_size">72dp</dimen>
+
+    <!-- screen indicator top padding -->
+    <dimen name="screen_indicator_top_padding">10dp</dimen>
+    <dimen name="screen_indicator_size">20dp</dimen>
+    <dimen name="screen_indicator_unit_width">40dip</dimen>
+    
+    <dimen name="screen_orientation_view_width">60dip</dimen>
+    
+    <dimen name="option_menu_text_size">18dp</dimen>
+    <dimen name="option_menu_item_height">56dp</dimen>
+    <dimen name="option_menu_item_padding">2dp</dimen>
+    <dimen name="option_menu_item_padding_bottom">3dp</dimen>
+    <dimen name="option_menu_margin">28dp</dimen>
+    <dimen name="option_menu_padding">7dp</dimen>
+    <dimen name="option_menu_land_margin">150dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="group_showbox" sceneName="home8" type="showbox"
+    assetsPath="assets/base/showbox" sceneFile="showbox_scene.cbf" 
+    basedataFile="showbox_basedata.cbf" childNames="Box01@group_showbox@showbox_basedata.cbf" 
+    keyWords="showbox" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0">
+    <imageInfos themeName="default">
+        <imageInfo imageName="1.jpg@showbox_basedata.cbf" imagePath="assets/base/showbox/1.jpg" />
+    </imageInfos>
+</config>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="group_feiting" className="com.borqs.se.widget3d.Airship"
+	sceneName="home8" type="Airship" assetsPath="assets/base/feiting"
+	sceneFile="feiting_scene.cbf" basedataFile="feiting_basedata.cbf"
+	rootName="home_root" childNames="ggq_01@group_feiting@feiting_basedata.cbf"
+	localTrans="0,0,0,30,1,0,0,2,2,2">
+	<imageInfos themeName="default">
+		<imageInfo imageName="ft_01.jpg@feiting_basedata.cbf_0"
+			imagePath="assets/base/feiting/ft_01.jpg" />
+		<imageInfo imageName="shengzi_03.png@feiting_basedata.cbf_1"
+			imagePath="assets/base/feiting/shengzi_03.png" />
+		<imageInfo imageName="ggq_01.jpg@feiting_basedata.cbf_2"
+			imagePath="assets/base/feiting/ggq_01.jpg" />
+	</imageInfos>
+</config>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="group_email" className="com.borqs.se.widget3d.EmailBox"
+	sceneName="home8" type="Email" assetsPath="assets/base/email"
+	sceneFile="email_scene.cbf" basedataFile="email_basedata.cbf" keyWords="email"
+	slotType="desktop" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0">
+    <imageInfos themeName="default">
+        <imageInfo imageName="xinxiang.jpg@email_basedata.cbf" imagePath="assets/base/email/xinxiang.jpg" />
+        <imageInfo imageName="xinxiang.jpg@email_basedata.cbf_0" imagePath="assets/base/email/xinxiang.jpg" />
+        <imageInfo imageName="xinxiang.jpg@email_basedata.cbf_1" imagePath="assets/base/email/xinxiang.jpg" />
+        <imageInfo imageName="xinxiang.jpg@email_basedata.cbf_2" imagePath="assets/base/email/xinxiang.jpg" />
+        <imageInfo imageName="xinxiang.jpg@email_basedata.cbf_3" imagePath="assets/base/email/xinxiang.jpg" />
+        <imageInfo imageName="yinying.png@email_basedata.cbf" imagePath="assets/base/email/yinying.png" />
+    </imageInfos>
+</config>

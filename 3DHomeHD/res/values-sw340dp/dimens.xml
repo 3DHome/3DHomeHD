@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="workspace_cell_width">80dp</dimen>
+    <dimen name="workspace_cell_height">100dp</dimen>
+
+    <dimen name="helper_title_font">20px</dimen>
+    <dimen name="helper_content_font">18px</dimen>
+    <dimen name="app_menu_title_font">20px</dimen>
+    <dimen name="app_menu_icon_font">14px</dimen>
+    <dimen name="app_menu_body_font">20px</dimen>
+    
+    <dimen name="app_customize_icon_size">48dp</dimen>
+    <dimen name="app_customize_icon_PaddingTop">6dp</dimen>
+    <dimen name="app_customize_icon_Padding">2dp</dimen>
+    <dimen name="app_customize_icon_text_size">14dp</dimen>
+    
+    <!-- AppsCustomize -->
+    <dimen name="apps_customize_cell_width">78dp</dimen>
+    <dimen name="apps_customize_cell_height">96dp</dimen>
+    <dimen name="apps_customize_pageLayoutWidthGap">6dp</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">12dp</dimen>
+    <dimen name="apps_customize_widget_cell_height_gap">16dp</dimen>
+    <dimen name="apps_customize_dock_size">48dp</dimen>
+
+    <dimen name="wall_app_icon_size">144px</dimen>
+</resources>

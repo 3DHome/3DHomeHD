@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="nexus4" className="com.borqs.se.widget3d.DesktopObject" sceneName="home8" type="nexus4" assetsPath="assets/base/nexus4" sceneFile="nexus4_scene.cbf" basedataFile="nexus4_basedata.cbf" childNames="nexus4@nexus4,shoujizuo_01@nexus4,touying_dh@nexus4,Box02@nexus4_basedata.cbf" keyWords="nexus4" slotType="desktop" spanX="2" spanY="2" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0">
+    <imageInfos themeName="default">
+        <imageInfo imageName="nexus4.jpg@nexus4_basedata.cbf" imagePath="assets/base/nexus4/nexus4.jpg" />
+        <imageInfo imageName="sjdizuo_02.jpg@nexus4_basedata.cbf" imagePath="assets/base/nexus4/sjdizuo_02.jpg" />
+        <imageInfo imageName="yinying.png@nexus4_basedata.cbf" imagePath="assets/base/nexus4/yinying.png" />
+        <imageInfo imageName="dh_04.jpg@nexus4_basedata.cbf" imagePath="assets/base/nexus4/dh_04.jpg" />
+    </imageInfos>
+    <childrenAttribute>
+        <child>
+            <geometry spatialName="nexus4@nexus4" />
+            <lights />
+            <geostatus statusValue="2113568" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="shoujizuo_01@nexus4" />
+            <lights />
+            <geostatus statusValue="2113568" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="touying_dh@nexus4" />
+            <lights />
+            <geostatus statusValue="2113557" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="Box02@nexus4_basedata.cbf" />
+            <lights />
+            <geostatus statusValue="2113536" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+    </childrenAttribute>
+</config>

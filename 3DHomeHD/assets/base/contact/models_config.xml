@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config
+    name="group_contact"
+    assetsPath="assets/base/contact"
+    basedataFile="lianxiren_basedata.cbf"
+    childNames="lxr_touying@group_lianxiren,object_lianxiren_fhq@group_lianxiren"
+    className="com.borqs.se.widget3d.NormalObject"
+    keyWords="contact"
+    localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0"
+    previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0"
+    sceneFile="lianxiren_scene.cbf"
+    sceneName="home8"
+    slotType="desktop"
+    spanX="2"
+    spanY="2"
+    type="Contact" >
+
+    <imageInfos themeName="default" >
+
+        <imageInfo
+            imageName="yinying.png@lianxiren_basedata.cbf"
+            imagePath="assets/base/contact/yinying.png" />
+
+        <imageInfo
+            imageName="object_lianxiren_fhq.jpg@lianxiren_basedata.cbf"
+            imagePath="assets/base/contact/object_lianxiren_fhq.jpg" />
+    </imageInfos>
+
+    <childrenAttribute>
+
+        <child>
+
+            <geometry spatialName="lxr_touying@group_lianxiren" />
+
+            <lights />
+
+            <geostatus statusValue="2113557" />
+
+            <alpha alphaValue="1" />
+
+            <effectData
+                effectDataW="0"
+                effectDataX="0"
+                effectDataY="0"
+                effectDataZ="0" />
+        </child>
+
+        <child>
+
+            <geometry spatialName="object_lianxiren_fhq@group_lianxiren" />
+
+            <lights />
+
+            <geostatus statusValue="2113568" />
+
+            <alpha alphaValue="1" />
+
+            <effectData
+                effectDataW="0"
+                effectDataX="0"
+                effectDataY="0"
+                effectDataZ="0" />
+        </child>
+    </childrenAttribute>
+
+</config>

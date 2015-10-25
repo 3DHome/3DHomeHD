@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="group_tablepicframe" className="com.borqs.se.widget3d.TableFrame"
+	sceneName="home8" type="TableFrame" assetsPath="assets/base/picframe/table_frame"
+	sceneFile="tablepicframe_scene.cbf" basedataFile="tablepicframe_basedata.cbf"
+	childNames="Object03@group_tablepicframe@tablepicframe_basedata.cbf"
+	slotType="desktop" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0">
+	<imageInfos themeName="default">
+		<imageInfo imageName="xiangkuang_03.jpg@tablepicframe_basedata.cbf"
+			imagePath="assets/base/picframe/xiangkuang_03.jpg" />
+		<imageInfo imageName="xp_2.jpg@tablepicframe_basedata.cbf"
+			imagePath="assets/base/picframe/xp_2.jpg" />
+		<imageInfo imageName="yinying.png@tablepicframe_basedata.cbf"
+			imagePath="assets/base/picframe/yinying.png" />
+	</imageInfos>
+</config>
+
+	

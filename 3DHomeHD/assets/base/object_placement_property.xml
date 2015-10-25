@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlacementProperty>
+    <vessel name="jiazi1" type="wall_shelf" />
+    <vessel name="desk_fang" type="dock" />
+    <vessel name="wall*" type="wall" />
+    <objectPlacement name="group_camera" placement="wall_shelf" />
+    <objectPlacement name="group_camera" placement="dock" />
+    <objectPlacement name="group_contact" placement="wall_shelf" />
+    <objectPlacement name="group_contact" placement="dock" />
+    <objectPlacement name="group_email" placement="wall_shelf" />
+    <objectPlacement name="group_email" placement="dock" />
+    <objectPlacement name="group_globe" placement="wall_shelf" />
+    <objectPlacement name="group_globe" placement="dock" />
+    <objectPlacement name="group_gplay" placement="wall_shelf" />
+    <objectPlacement name="group_gplay" placement="dock" />
+    <objectPlacement name="group_iconbox" placement="wall_shelf" />
+    <objectPlacement name="group_iconbox" placement="dock" />
+    <objectPlacement name="group_phone" placement="wall_shelf" />
+    <objectPlacement name="group_phone" placement="dock" />
+    <objectPlacement name="group_tablepicframe" placement="wall_shelf" />
+    <objectPlacement name="group_tablepicframe" placement="dock" />
+    <objectPlacement name="group_sms" placement="wall_shelf" />
+    <objectPlacement name="group_sms" placement="dock" />
+    <objectPlacement name="group_pc" placement="dock" />
+    <objectPlacement name="group_ipad" placement="dock" />
+    <objectPlacement name="group_largewallpicframe" placement="wall" />
+    <objectPlacement name="group_hengwallpicframe" placement="wall" />
+    <objectPlacement name="group_tv" placement="wall" />
+    <objectPlacement name="jiazi" placement="wall" />
+    <objectPlacement name="jiazi1" placement="wall" />
+    <objectPlacement name="jiaziport" placement="wall" /> 
+    <objectPlacement name="group_clock" placement="wall" />
+    <objectPlacement name="app*" placement="wall_shelf" />
+    <objectPlacement name="shortcut*" placement="wall_shelf" />
+    <objectPlacement name="widget*" placement="wall" />
+    <objectPlacement name="classicalphone" placement="dock" />
+    <objectPlacement name="classicalphone" placement="wall_shelf" />
+    <objectPlacement name="clock2" placement="wall" />
+    <objectPlacement name="clock1" placement="wall" />
+    <objectPlacement name="globe1" placement="dock" />
+    <objectPlacement name="globe1" placement="wall_shelf"/>
+    <objectPlacement name="zhuangshihua1" placement="wall" />
+    <objectPlacement name="zhuangshihua2" placement="wall" />
+    <objectPlacement name="nexus10" placement="wall_shelf" />
+    <objectPlacement name="nexus10" placement="dock" />
+    <objectPlacement name="nexus4" placement="wall_shelf" />
+    <objectPlacement name="nexus4" placement="dock" />
+    <objectPlacement name="fangdajing" placement="dock" />
+    <objectPlacement name="fangdajing" placement="wall_shelf" />
+    <objectPlacement name="group_showbox" placement="wall_shelf" />
+    <objectPlacement name="group_showbox" placement="dock" />
+    <objectPlacement name="woodfolderclose" placement="wall_shelf" />
+</PlacementProperty>

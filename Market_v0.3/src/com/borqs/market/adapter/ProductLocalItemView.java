@@ -1,0 +1,157 @@
+package com.borqs.market.adapter;
+
+import java.util.ArrayList;
+
+import android.app.Activity;
+import android.content.Context;
+import android.text.TextUtils;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import com.borqs.market.R;
+import com.borqs.market.json.Product;
+import com.borqs.market.utils.ImageRun;
+import com.borqs.market.utils.IntentUtil;
+
+public class ProductLocalItemView {
+    public static final String TAG = ProductLocalItemView.class.getSimpleName();
+    public View convertView;
+    public LinearLayout itemContainer;
+    public int childCount;
+    
+    public int image_portrait_width;
+    public int image_portrait_height;
+    public int height;
+    public int sacaled_width;
+    public int mColumn;
+    private Activity mActivity;
+    private Context mContext;
+    private LayoutInflater inflater;
+    
+    public ProductLocalItemView(Activity activity, int column, int itemMinWidth) {
+        super();
+        mActivity = activity;
+        mContext = mActivity.getApplicationContext();
+        mColumn = column;
+        inflater = LayoutInflater.from(mContext);
+        calculateWidth(itemMinWidth);
+        
+        convertView = inflater.inflate(R.layout.list_item_view, null);
+        itemContainer = (LinearLayout)convertView.findViewById(R.id.item_container);
+        convertView.setTag(this);
+    }
+    
+    public void initUI(int position, ArrayList<Product> prds) {
+        if(itemContainer.getChildCount() != mColumn) {
+            itemContainer.removeAllViews();
+        }
+        if(prds != null && prds.size() > 0) {
+            int prdSize = prds.size();
+            for(int i = 0;i < mColumn; i++) {
+                View child = null;
+                Holder holder = null;
+                if(itemContainer.getChildCount() > i) {
+                    child = itemContainer.getChildAt(i);
+                }
+                if(child == null) {
+                        child = inflater.inflate(R.layout.product_view, null);
+                    holder = new Holder();
+                    holder.imageCover = (ImageView) child.findViewById(R.id.img_cover);
+                    holder.layout_product_view = child.findViewById(R.id.layout_product_view);
+                    holder.textName = (TextView) child.findViewById(R.id.tv_name);
+                    
+                    child.setTag(holder);
+                    itemContainer.addView(child, i, new LinearLayout.LayoutParams(0,height, 1));
+                }else {
+                    holder = (Holder)child.getTag();
+                }
+                if(i < prdSize) {
+                    final Product product = prds.get(i);
+                    child.setVisibility(View.VISIBLE);
+                    
+                    LinearLayout.LayoutParams params = (LinearLayout.LayoutParams)holder.layout_product_view.getLayoutParams();
+                    params.width = image_portrait_width;
+                    params.height = image_portrait_height;
+                    params.setMargins(0, 0, 0, 0);
+                    sacaled_width = image_portrait_width;
+                    holder.textName.setVisibility(View.VISIBLE);
+                    if(!TextUtils.isEmpty(product.product_id) && product.product_id.startsWith("USP_")) {
+                        if(TextUtils.isEmpty(product.author)) {
+                            holder.textName.setText(product.name);
+                        }else {
+                            holder.textName.setText(product.author);
+                        }
+                    }else {
+                        holder.textName.setText(product.name);
+                    }
+                  holder.imageCover.setTag(product.cover_url);
+                  holder.imageCover.setImageResource(R.drawable.picture_loading);
+                  final ImageView img = holder.imageCover;
+                  if(position > 2) {
+                      holder.imageCover.postDelayed(new Runnable() {
+                          
+                          @Override
+                          public void run() {
+                              shootImageRunner(product.cover_url, img);
+                          }
+                      }, 500);
+                  }else {
+                      shootImageRunner(product.cover_url, holder.imageCover);
+                  }
+                  holder.imageCover.setOnClickListener(new View.OnClickListener() {
+                      
+                      @Override
+                      public void onClick(View v) {
+                          IntentUtil.startProductLocalDetailActivity(mActivity,
+                                  product.product_id,
+                                  product.version_code,
+                                  product.name,
+                                  product.supported_mod);
+                      }
+                  });
+                }else {
+                    child.setVisibility(View.INVISIBLE);
+                }
+            }
+        }
+        if(itemContainer.getChildCount() > prds.size()) {
+            for(int i = prds.size(); i < itemContainer.getChildCount(); i++) {
+                itemContainer.getChildAt(i).setVisibility(View.INVISIBLE);
+            }
+        }
+        
+    }
+    
+    static class Holder {
+        public View layout_product_view;
+        public ImageView imageCover;
+        public TextView textName;
+    }
+    
+    private void shootImageRunner(String url, ImageView imageView) {
+        if(TextUtils.isEmpty(url)) return;
+        if(imageView.getTag() == null) return;
+        if(!url.equals(imageView.getTag()))  return;
+        ImageRun photo_1 = new ImageRun(null, url, 0);
+        photo_1.width = image_portrait_width;
+        photo_1.addHostAndPath = true;
+        photo_1.noimage = true;
+        photo_1.need_scale = true;
+        imageView.setImageResource(R.drawable.picture_loading);
+        photo_1.setImageView(imageView);
+    }
+
+    private void calculateWidth(int itemMinWidth) {
+        image_portrait_width = itemMinWidth;
+        image_portrait_height = itemMinWidth * 3 / 2;
+        height = image_portrait_height;
+    }
+    public void setmColumn(int mColumn, int itemMinWidth) {
+        calculateWidth(itemMinWidth);
+        this.mColumn = mColumn;
+    }
+    
+}

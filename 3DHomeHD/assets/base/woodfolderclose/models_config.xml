@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="woodfolderclose" className="com.borqs.se.widget3d.Folder" sceneName="home8" type="Folder" assetsPath="assets/base/woodfolderclose" sceneFile="woodfolderclose_scene.cbf" basedataFile="woodfolderclose_basedata.cbf" childNames="object_folder02s@woodfolderclose" keyWords="woodfolderclose" slotType="" spanX="2" spanY="2" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" minPoint="-74.4145,-37.0086,0.0712" maxPoint="74.4145,-0.7827,154.235">
+    <imageInfos themeName="default">
+        <imageInfo imageName="object_folder02s_fhq.jpg@woodfolderclose_basedata.cbf" imagePath="assets/base/woodfolderclose/object_folder02s_fhq.jpg" />
+    </imageInfos>
+    <childrenAttribute>
+        <child>
+            <geometry spatialName="object_folder02s@woodfolderclose" />
+            <lights />
+            <geostatus statusValue="2113536" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+    </childrenAttribute>
+</config>

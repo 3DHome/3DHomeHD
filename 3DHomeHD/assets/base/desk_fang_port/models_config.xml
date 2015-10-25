@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config name="desk_fang_port" className="com.borqs.se.widget3d.DockNew" sceneName="home8" type="desk" assetsPath="assets/base/desk_fang_port" sceneFile="desk_fang_port_scene.cbf" basedataFile="desk_fang_port_basedata.cbf" childNames="fangzhuo_4_di@desk_fang_port,fangzhuo_4_ding@desk_fang_port" keyWords="deskfang" slotType="desktop" spanX="2" spanY="2" previewTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" localTrans="0,0,0,0,0,0,1,1.0,1.0,1.0" minPoint="-215.767,-122.757,0.1009" maxPoint="215.773,122.757,138.042">
+    <imageInfos themeName="default">
+        <imageInfo imageName="hd_table02_fhq.png@desk_fang_port_basedata.cbf" imagePath="assets/base/desk_fang_port/hd_table02_fhq.png" />
+        <imageInfo imageName="hd_table02_fhq.png@desk_fang_port_basedata.cbf_0" imagePath="assets/base/desk_fang_port/hd_table02_fhq.png" />
+    </imageInfos>
+    <childrenAttribute>
+        <child>
+            <geometry spatialName="fangzhuo_4_di@desk_fang_port" />
+            <lights />
+            <geostatus statusValue="2113541" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+        <child>
+            <geometry spatialName="fangzhuo_4_ding@desk_fang_port" />
+            <lights />
+            <geostatus statusValue="2113605" spatialDataValue="15" />
+            <alpha alphaValue="1" />
+            <effectData effectDataX="0" effectDataY="0" effectDataZ="0" effectDataW="0" />
+        </child>
+    </childrenAttribute>
+</config>

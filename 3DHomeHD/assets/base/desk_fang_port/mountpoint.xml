@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mountPointsConfig>
+    <mountPoints containerType="1" containerName="fangzhuo_shuping_5_point" groupName="fangzhuo_4_ding@desk_fang_port">
+        <mountPointData mountPointName="c_fangzhuo_shuping_5_point_01" translatex="-161.765" translatey="0" translatez="-14.8541" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_fangzhuo_shuping_5_point_02" translatex="-80.8825" translatey="0" translatez="-14.8541" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_fangzhuo_shuping_5_point_03" translatex="0" translatey="0" translatez="-14.8541" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_fangzhuo_shuping_5_point_04" translatex="80.8825" translatey="-0" translatez="-14.8541" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+        <mountPointData mountPointName="c_fangzhuo_shuping_5_point_05" translatex="161.765" translatey="-0" translatez="-14.8541" rotatex="0" rotatey="0" rotatez="0" rotateAngle="0" scalex="1" scaley="1" scalez="1" />
+    </mountPoints>
+</mountPointsConfig>

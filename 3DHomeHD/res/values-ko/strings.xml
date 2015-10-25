@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/Quake/res/strings.xml
+**
+** Copyright 2006, Google Inc.
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">3D 홈HD</string>
+    <string name="description">진실의 세계는 입체입니다. 어떤 기타 메인 모니터와도 같지 않고, 3D 메인 모니터는 당신에게 직접 경험하는 진실체험을 가져다 줄 수 있습니다. 시뮬레이션을 통해 당신이 일상생활 중에서 어떻게 당신의 휴대폰, 텔레비죤 , 일력 등을 사용하고, 3D 메인 모니터는 당신에게 한 가지의 완전히 다르고 새로운 휴대폰과 태블릿 PC 체험을 가져옵니다.</string>
+
+    <!-- Home setting strings -->
+    <string name="menu_preference">3D홈 설정</string>
+    <string name="setting_display">디스플레이설치</string>
+    <string name="themes">테마</string>
+    <string name="theme_summary">테마를 다운로드 및 적용</string>
+    <string name="setting_style">스타일 설정</string>
+    <string name="wall_objects_background_title">바로 가기 아이콘 및 위젯 배경</string>
+    <string name="wall_objects_background_summary">바로 가기 및 배경 설정 부분</string>
+    <string name="choose_background_dialog_title">배경을 선택하십시오</string>
+    <string name="full_screen">전체 화면</string>
+    <string name="enable">사용개시</string>
+    <string name="disable">사용 금지</string>
+    <string name="unlock_screen_animation">화면 애니메이션을 잠금 해제</string>
+    <string name="weather_settings">날씨 설정</string>
+    <string name="weather_summary">위치, 단위 설정</string>
+    <string name="update_settings">설치 업데이트</string>
+    <string name="upgrade_title">최신버전 검색</string>
+    <string name="share">몫</string>
+    <string name="score">점수</string>
+    <string name="feedback">고객의견 </string>
+    <string name="help">도움</string>
+    <string name="about">사이트소개</string>
+
+    <!-- Customize house setting strings  -->
+    <string name="edit_wall_menu_title">배경 화면을 선택합니다</string>
+
+    <!-- Theme setting strings -->
+    <string name="theme_loading">로드</string>
+    <string name="action_download">다운로드</string>
+    <string name="action_downloaded">다운로드</string>
+    <string name="action_waiting">기다리는</string>
+    <string name="action_delete">삭제</string>
+    <string name="action_apply">신청</string>
+    <string name="action_using">현재 사용</string>
+    <string name="no_local_theme">로컬 테마 없음</string>
+    <string name="more_themes">테마 더보기</string>
+    <string name="online_theme">온라인 테마</string>
+    <string name="preview">시사</string>
+    <string name="progress_prefix">다운로드 중 &#8230;</string>
+    <string name="delete_theme_title">테마를 삭제</string>
+    <string name="notify_user_apply"><xliff:g id="name">%s</xliff:g>테마 성공으로 전환합니다.</string>
+    <string name="confirm_delete_selected_theme"><xliff:g id="name">%s</xliff:g> 를 삭제 하시겠습니까?</string>
+
+    <!-- 3D Objects setting strings -->
+    <string name="no_local_object">로컬 3D 개체 없음</string>
+    <string name="online_object">온라인 3D 객체</string>
+    <string name="local_object">지역 3D 객체</string>
+    <string name="delete_objects_title">3D 개체를 삭제</string>
+    <string name="confirm_delete_selected_objects"><xliff:g id="name">%s</xliff:g> 를 삭제 하시겠습니까?</string>
+
+    <!-- Weather setting strings -->
+    <string name="auto_update_common">기본 설정</string>
+    <string name="auto_location_title">사용  나의 위치</string>
+    <string name="auto_location_summary">자동으로 위치를 확정한다</string>
+    <string name="set_location_title">위치 설정</string>
+    <string name="set_location_msg">도시 명칭 입력 한다： </string>
+    <string name="city_name_error">도시 혹은 지역 명칭을 입력하십시오.</string>
+    <string name="dialog_choose_city">도시를 선택하세요</string>
+    <string name="weather_update_success">날씨 위치를 업데이트하였음.</string>
+    <string name="update_now_title">바로 업데이트된다</string>
+    <string name="update_now_summary">우선 휴대폰 네트워크가 연결되였음을 확인한다</string>
+    <string name="switch_units_title">미터법 단위 사용.</string>
+    <string name="switch_units_summary">전환 미터법/야드파운드법  </string>
+    <string name="auto_update_setting"> 자동으로 설정을 갱신 함</string>
+    <string name="auto_update_title">자동업데이트 켜기</string>
+    <string name="auto_update_summary">네트워크를 통해 자동으로 날씨 정보를 얻음</string>
+    <string name="start_time_title">시작 시간을 갱신 함</string>
+    <string name="end_time_title">종료 시간을 갱신 함</string>
+    <string name="interval_time_title"> 시간 간격을 갱신 함</string>
+    <string name="interval_time_summary">3 시간</string>
+    <string name="get_latest_weather_failed">최신 날씨 정보를 얻지 못하였음.</string>
+    <string name="wait_dialog_title">조금 기다려 주십시오\u2026</string>
+    <string name="wait_dialog_msg_weather"> 검색 중\u2026</string>
+    <string name="req_error">날씨 정보 취득이 실패.</string>
+    <string name="locate_error">현재위치를 얻지 못하였음.</string>
+
+    <!-- Check update strings -->
+    <string name="network_error">휴대폰이 네트워크까지 연결되지 않았습니다.</string>
+    <string name="no_update">현재 최신버전입니다.</string>
+    <string name="check_update_error">네트워크 혹은 서버의 문제 때문에 소프트웨어 버젼 검사와 업그레이드가 실패, 잠시 후 재시도를 하십시오.</string>
+    <string name="upgrade_dialog_title">프로그램 업데이트</string>
+    <string name="wait_dialog_msg_sw">검사 중\u2026</string>
+    <string name="upgrade_dialog_msg">최신버전이 검색되였습니다. \r\n 만약 폰 인테넷 다운로드하면 통신비용이 발생수 있습니다. 다운로드하시겠습니까?</string>
+    <string name="upgrade_dialog_current_version">현재버전：</string>
+    <string name="upgrade_dialog_latest_version">최신버전：</string>
+    <string name="upgrade_dialog_file_size">파일크기：</string>
+    <string name="upgrade_dialog_update_changes">업데이트설명：</string>
+    <string name="upgrade_dialog_ok">다운로드</string>
+    <string name="upgrade_dialog_cancel">포기한다</string>
+
+    <string name="share_content">나는 3D 홈을 설치했습니다, 당신이 그것을 시도 추천합니다, 주소를 다운로드: \n%1$s=%2$s</string>
+
+    <!-- Help strings -->
+    <string name="help_menu_0">프로그램을 열람</string>
+    <string name="help_menu_1">프로그램을 추가</string>
+    <string name="help_menu_2">프로그램을벽 </string>
+    <string name="help_menu_3">물체를 삭제 </string>
+    <string name="help_menu_4">물체 열람</string>
+    <string name="help_menu_5">객체를 다운로드</string>
+    <string name="help_menu_6">날씨</string>
+    <string name="help_0">공개석상의 노트북에 이미 설치한 모든 프로그램을 클릭하십시오.</string>
+    <string name="help_1">길게 누른상테에서 프로그램을 이동하여 벽에 첨가한다.</string>
+    <string name="help_2">길게 누른상테에서 프로그램을 이동하여 벽에 첨가한다.</string>
+    <string name="help_3">수를 던지고 / 쓰레기로 드래그를 통해 현장에서 개체를 삭제합니다.</string>
+    <string name="help_4">메뉴클릭 “3D 물체 “ 추가 가능한 물체를 전시.</string>
+    <string name="help_5">새 개체를 다운로드하려면 \"Shop\"을 클릭합니다.</string>
+    <string name="help_6">하늘을 클릭하면 당일의 날씨상황을 나타낸다.</string>
+
+    <!-- About strings -->
+    <string name="about_version">버전： %s</string>
+    <string name="about_website">공식사이트：http://www.borqs.com/</string>
+
+    <!-- Weather strings -->
+    <string name="dialog_gls_msg">이 응용 프로그램이 당신의 현재위치를 사용하고, 시스템 설치 중에 “나의 위치” 을 사용해 주십시오.</string>
+    <string name="no_info_msg">날씨 정보가 없음.</string>
+
+    <!-- Main menu strings -->
+    <string name="shortcut_title">바로가기</string>
+    <string name="app_title">프로그램</string>
+    <string name="click_menu_shortcut">선택할수 있는 바로가기를 하나 길게 누르세요</string>
+
+    <string name="gadget_error_text">소형 플러그인이 로드하고 있다 </string>
+    <string name="activity_not_found">"애플리케이션이 설치되어 있지 않았습니다."</string>
+    <string name="uninstall_system_app_text">"이것은 시스템애플리케이션 입니다. 삭제할수 없습니다."</string>
+    <string name="delete_preset_object_text">사전 개체를 삭제할 수 없습니다.</string>
+
+    <!-- 3D Object strings -->
+    <string name="select_app">귀속된 프로그램을 선택</string>
+
+    <!-- Room strings -->
+    <string name="no_room">추가 공간이 없음.</string>
+    <string name="no_room_desk">추가할 공간이 없음.</string>
+
+    <!-- Settings AD Content -->
+    <string name="ad_content_title">사용자 정의 광고 내용</string>
+    <string name="ad_content_dialog_title">광고 콘텐츠를 설정</string>
+    <string name="ad_content_summary">비행선에 대한 광고 콘텐츠를 설정</string>
+    <string name="ad_default_blessings">행운을 빕니다!!!</string>
+
+    <!-- Orientation settings -->
+    <string name="orientation_preferred_summary">Set orientation</string>
+    <string name="orientation_preferred_dialog_title">Set orientation</string>
+    <string name="orientation_preferred_title">Set orientation</string>
+    
+    <string name="search_activity_title">구글 검색</string>
+    <string name="search_activity_hint_text">를 입력하여 검색 키워드</string>
+    <string name="search_activity_button_text">검색</string>
+    
+    <!-- Long click object menu icon text -->
+    <string name="long_click_object_menu_delete">삭제</string>
+    <string name="long_click_object_menu_change_bind">제본</string>
+    <string name="long_click_object_menu_change_icon">아이콘</string>
+    <string name="long_click_object_menu_change_label">이름 바꾸기</string>
+    <string name="long_click_object_menu_uninstall">제거</string>
+    <string name="long_click_object_menu_resize">사이즈</string>
+    
+    <string name="show_shelf">선반을 표시</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="backdoor_menus">
+        <item>Wallpaper Export</item>
+        <item>Wallpaper Import</item>
+    </string-array>
+
+    <!-- Home Backdoor setting strings -->
+    <string name="backdoor_menu_preference">Home backdoor settings</string>
+    <string name="backdoor_setting_display">Display settings</string>
+    <string name="backdoor_themes">Themes</string>
+    <string name="backdoor_theme_summary">Download and apply theme</string>
+    <string name="backdoor_wallpapers">Wall Paper</string>
+    <string name="backdoor_wallpaper_summary">Download and apply Wall paper</string>
+    <string name="backdoor_setting_style">Style settings</string>
+    <string name="backdoor_wall_objects_background_title">Shortcut&#038; widget background</string>
+    <string name="backdoor_wall_objects_background_summary">Set background for shortcuts and widgets in wall</string>
+    <string name="backdoor_choose_background_dialog_title">Choose background</string>
+    <string name="backdoor_feature_title">Open backdoor feature</string>
+    <string name="backdoor_enable">Enable backdoor</string>
+    <string name="backdoor_disable">Disable backdoor</string>
+
+    <string name="backdoor_setting_server">Server settings</string>
+    <string name="backdoor_setting_logs">Logs settings</string>
+</resources>
