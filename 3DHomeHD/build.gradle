@@ -57,8 +57,8 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
 
-        versionCode 86
-        versionName "0.14.16-86"
+        versionCode 4402
+        versionName "0.15.0-4402p"
 
         // Enabling multidex support.
         multiDexEnabled true
