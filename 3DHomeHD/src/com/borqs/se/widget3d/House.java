@@ -1,11 +1,6 @@
 package com.borqs.se.widget3d;
 
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 import android.app.Activity;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProviderInfo;
@@ -27,7 +22,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.text.TextUtils;
-import android.util.FloatMath;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
@@ -41,19 +35,29 @@ import com.borqs.framework3d.home3d.SEMountPointManager;
 import com.borqs.framework3d.home3d.SEObjectBoundaryPoint;
 import com.borqs.market.wallpaper.WallpaperUtils;
 import com.borqs.se.download.DownloadChangeReceiver;
+import com.borqs.se.download.DownloadChangeReceiver.selectObjectListener;
+import com.borqs.se.engine.SEAnimFinishListener;
+import com.borqs.se.engine.SEAnimation.CountAnimation;
+import com.borqs.se.engine.SEBitmap;
+import com.borqs.se.engine.SECamera;
+import com.borqs.se.engine.SECommand;
 import com.borqs.se.engine.SELoadResThread;
+import com.borqs.se.engine.SEObject;
+import com.borqs.se.engine.SEObjectFactory;
+import com.borqs.se.engine.SEObjectGroup;
 import com.borqs.se.engine.SEScene;
+import com.borqs.se.engine.SESceneInfo;
+import com.borqs.se.engine.SESceneManager;
+import com.borqs.se.engine.SESceneManager.UnlockScreenListener;
+import com.borqs.se.engine.SETransParas;
 import com.borqs.se.engine.SEVector;
 import com.borqs.se.engine.SEVector.SERay;
 import com.borqs.se.engine.SEVector.SERect3D;
 import com.borqs.se.engine.SEVector.SERotate;
 import com.borqs.se.engine.SEVector.SEVector2f;
 import com.borqs.se.engine.SEVector.SEVector3f;
-import com.borqs.se.download.DownloadChangeReceiver.selectObjectListener;
-import com.borqs.se.engine.SEAnimFinishListener;
-import com.borqs.se.engine.SEAnimation.CountAnimation;
-import com.borqs.se.engine.SECommand;
 import com.borqs.se.home3d.HomeApplication;
+import com.borqs.se.home3d.HomeDataBaseHelper;
 import com.borqs.se.home3d.HomeScene;
 import com.borqs.se.home3d.HomeUtils;
 import com.borqs.se.home3d.ModelInfo;
@@ -62,22 +66,17 @@ import com.borqs.se.home3d.ModelInfo.ImageItem;
 import com.borqs.se.home3d.ProviderUtils;
 import com.borqs.se.home3d.ProviderUtils.ModelColumns;
 import com.borqs.se.home3d.ProviderUtils.Tables;
-import com.borqs.se.home3d.HomeDataBaseHelper;
 import com.borqs.se.home3d.SettingsActivity;
-import com.borqs.se.engine.SEBitmap;
-import com.borqs.se.engine.SECamera;
-import com.borqs.se.engine.SEObject;
-import com.borqs.se.engine.SEObjectFactory;
-import com.borqs.se.engine.SEObjectGroup;
-import com.borqs.se.engine.SETransParas;
-import com.borqs.se.engine.SESceneInfo;
-import com.borqs.se.engine.SESceneManager;
-import com.borqs.se.engine.SESceneManager.UnlockScreenListener;
 import com.borqs.se.shortcut.AppItemInfo;
 import com.borqs.se.shortcut.LauncherModel;
 import com.borqs.se.shortcut.LauncherModel.ShortcutCallBack;
 import com.borqs.se.shortcut.WidgetWorkSpace;
 import com.borqs.se.widget3d.ObjectInfo.ObjectSlot;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class House extends HouseObject implements UnlockScreenListener, ShortcutCallBack, selectObjectListener {
 
@@ -1539,7 +1538,7 @@ public class House extends HouseObject implements UnlockScreenListener, Shortcut
                 setRotate(mCurAngle);
                 stop();
             } else {
-                float step = FloatMath.sqrt(absNRA) * 0.6f;/*
+                float step = (float) Math.sqrt(absNRA) * 0.6f;/*
                                                             * (float)Math.pow(absNRA
                                                             * , 1 / 3.0);
                                                             */

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.borqs.freehdhome"
-    android:versionCode="4402"
-    android:versionName="0.15.0-4402p" >
-
-    <!--android:versionCode="1550"
-    android:versionName="0.14.10.1550" -->
-
+    package="com.borqs.freehdhome">
 
     <!-- VERY IMPORTANT! Don't forget this permission, or in-app billing won't work. -->
     <uses-permission android:name="com.android.vending.BILLING"/>
@@ -71,10 +65,6 @@
         android:label="@string/app_name"
         android:name="com.borqs.se.home3d.HomeApplication"
         android:theme="@style/HomeThemeWithActionBar"
-<<<<<<< HEAD
-=======
-        android:debuggable="false"
->>>>>>> 581a1e092905957473ed9ae45fb61529b717644e
         android:largeHeap="true" >
         <activity
             android:clearTaskOnLaunch="true"
