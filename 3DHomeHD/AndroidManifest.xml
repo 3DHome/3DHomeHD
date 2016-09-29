@@ -62,6 +62,7 @@
         android:allowClearUserData="false"
         android:description="@string/description"
         android:icon="@drawable/app_icon"
+        android:debuggable="false"
         android:label="@string/app_name"
         android:name="com.borqs.se.home3d.HomeApplication"
         android:theme="@style/HomeThemeWithActionBar"
